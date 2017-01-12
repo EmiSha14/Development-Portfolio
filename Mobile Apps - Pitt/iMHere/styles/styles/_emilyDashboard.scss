@@ -1,0 +1,135 @@
+
+		
+
+.e-page {
+	
+	background-color: $base-background-dark;
+	font-size: $base-font-size-home;
+	
+		
+	.e-dashboard-tile
+	{
+		width:98%;
+		margin:0 1%;
+		height:2%;
+		border: none;
+		margin-top: 5px;
+		font-family: $base-font !important;
+
+			h2 {text-align: left;
+				padding: 5px;
+				margin-bottom: 0;				
+			}
+					} 
+
+	.e-dashboard-info {width:98%;
+		margin:1%;
+		height:10%;
+		border: none;
+		background-color: $dark;
+		background-position: left 3% center;
+		background-repeat: no-repeat;
+		background-size: 10%;
+
+		
+	
+		p {text-align: left;
+				padding: 5% 15px;
+				margin-left: 14%;
+				font-family: $base-font;
+				font-size: 1em;	
+
+
+				
+			}
+
+		.time {text-align: center;
+				color:#fff;
+				padding:8% 0;
+					margin-left: 0;
+					
+					}
+
+		
+		}
+
+	.e-rewards-dashboard {background-image: url(../images/rewards.svg);
+						background-size: 20%;
+
+						p {text-align: left;
+							padding: 5% 15px;
+							margin-left: 20%;
+							font-family: $base-font;
+							font-size: 1em;	
+							
+			}
+					}
+
+	.e-myMeds-dashboard{
+			background-image: url(../images/mymeds.svg);
+					}
+
+	.e-teleCath-dashboard{
+			background-image: url(../images/telecath.svg);
+					}
+
+	.e-bmq-dashboard{
+			background-image: url(../images/bmqs.svg);
+					}
+
+	.e-mood-dashboard{
+		background-image: url(../images/mood.svg);}
+
+	.e-skin-dashboard{
+			background-image: url(../images/skincare.svg);}
+
+	.e-education-dashboard{
+		background-image: url(../images/education.svg);}
+
+	.e-healthRecord-dashboard{
+			background-image: url(../images/myHealth.svg);}
+
+	.e-dark-dashboard {background-color: #4d4d4d;
+			color:#ffffff;}
+
+		.e-rewards-bg {
+			background-color: $rewards;
+		}
+		.e-meds-bg {
+		background-color:$meds;}
+
+		.e-telecath-bg {
+		background-color:$teleCath;}
+
+		.e-bmqs-bg {
+		background-color:$bmq;}
+
+		.e-mood-bg {
+		background-color:$mood;}
+
+		.e-skin-bg {
+		background-color:$skin;}
+
+		.e-education-bg {
+		background-color:$education;}
+
+		.e-health-bg {
+		background-color:$healthRecord;}
+
+					
+	.tab-item {font-family: $base-font !important;}
+
+.row + .row {
+  margin-top: -5px;
+  padding-top: 5;
+}
+
+					}
+
+
+		
+
+	
+
+
+

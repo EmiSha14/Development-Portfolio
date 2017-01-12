@@ -1,0 +1,120 @@
+.roller {
+    width: 300px;
+    height: 200px;
+    background-image: url("../images/tmp-1.gif");
+    background-size: 300px 200px;
+    -webkit-animation-name: roller; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 15s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    animation-name: roller;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes roller {
+    2%   {background-image: url("../images/tmp-1.gif"); }
+    4%  {background-image: url("../images/tmp-2.gif"); }
+    6%  {background-image: url("../images/tmp-3.gif"); }
+    8%  {background-image: url("../images/tmp-4.gif"); }
+    10% {background-image: url("../images/tmp-5.gif"); }
+    12% {background-image: url("../images/tmp-6.gif"); }
+    14% {background-image: url("../images/tmp-7.gif"); }
+    16% {background-image: url("../images/tmp-8.gif"); }
+    18% {background-image: url("../images/tmp-9.gif"); }
+    20% {background-image: url("../images/tmp-10.gif"); }
+    22%   {background-image: url("../images/tmp-11.gif"); }
+    24%  {background-image: url("../images/tmp-12.gif"); }
+    26%  {background-image: url("../images/tmp-13.gif"); }
+    28%  {background-image: url("../images/tmp-14.gif"); }
+    30% {background-image: url("../images/tmp-15.gif"); }
+    32% {background-image: url("../images/tmp-16.gif"); }
+    34% {background-image: url("../images/tmp-17.gif"); }
+    36% {background-image: url("../images/tmp-18.gif"); }
+    38% {background-image: url("../images/tmp-19.gif"); }
+    40% {background-image: url("../images/tmp-20.gif"); }
+    42%   {background-image: url("../images/tmp-21.gif"); }
+    44%  {background-image: url("../images/tmp-22.gif"); }
+    46%  {background-image: url("../images/tmp-23.gif"); }
+    48%  {background-image: url("../images/tmp-24.gif"); }
+    50% {background-image: url("../images/tmp-25.gif"); }
+    52% {background-image: url("../images/tmp-26.gif"); }
+    54% {background-image: url("../images/tmp-27.gif"); }
+    56% {background-image: url("../images/tmp-28.gif"); }
+    58% {background-image: url("../images/tmp-29.gif"); }
+    60% {background-image: url("../images/tmp-30.gif"); }
+    62%   {background-image: url("../images/tmp-31.gif"); }
+    64%  {background-image: url("../images/tmp-32.gif"); }
+    66%  {background-image: url("../images/tmp-33.gif"); }
+    68%  {background-image: url("../images/tmp-34.gif"); }
+    70% {background-image: url("../images/tmp-35.gif"); }
+    72% {background-image: url("../images/tmp-36.gif"); }
+    74% {background-image: url("../images/tmp-37.gif"); }
+    76% {background-image: url("../images/tmp-38.gif"); }
+    78% {background-image: url("../images/tmp-39.gif"); }
+    80% {background-image: url("../images/tmp-40.gif"); }
+    82%   {background-image: url("../images/tmp-41.gif"); }
+    84%  {background-image: url("../images/tmp-42.gif"); }
+    86%  {background-image: url("../images/tmp-43.gif"); }
+    88%  {background-image: url("../images/tmp-44.gif"); }
+    90% {background-image: url("../images/tmp-45.gif"); }
+    92% {background-image: url("../images/tmp-46.gif"); }
+    94% {background-image: url("../images/tmp-47.gif"); }
+    96% {background-image: url("../images/tmp-48.gif"); }
+    98% {background-image: url("../images/tmp-49.gif"); }
+    100% {background-image: url("../images/tmp-50.gif"); }
+}
+
+/* Standard syntax */
+@keyframes roller {
+    2%   {background-image: url("../images/tmp-1.gif"); }
+    4%  {background-image: url("../images/tmp-2.gif"); }
+    6%  {background-image: url("../images/tmp-3.gif"); }
+    8%  {background-image: url("../images/tmp-4.gif"); }
+    10% {background-image: url("../images/tmp-5.gif"); }
+    12% {background-image: url("../images/tmp-6.gif"); }
+    14% {background-image: url("../images/tmp-7.gif"); }
+    16% {background-image: url("../images/tmp-8.gif"); }
+    18% {background-image: url("../images/tmp-9.gif"); }
+    20% {background-image: url("../images/tmp-10.gif"); }
+    22%   {background-image: url("../images/tmp-11.gif"); }
+    24%  {background-image: url("../images/tmp-12.gif"); }
+    26%  {background-image: url("../images/tmp-13.gif"); }
+    28%  {background-image: url("../images/tmp-14.gif"); }
+    30% {background-image: url("../images/tmp-15.gif"); }
+    32% {background-image: url("../images/tmp-16.gif"); }
+    34% {background-image: url("../images/tmp-17.gif"); }
+    36% {background-image: url("../images/tmp-18.gif"); }
+    38% {background-image: url("../images/tmp-19.gif"); }
+    40% {background-image: url("../images/tmp-20.gif"); }
+    42%   {background-image: url("../images/tmp-21.gif"); }
+    44%  {background-image: url("../images/tmp-22.gif"); }
+    46%  {background-image: url("../images/tmp-23.gif"); }
+    48%  {background-image: url("../images/tmp-24.gif"); }
+    50% {background-image: url("../images/tmp-25.gif"); }
+    52% {background-image: url("../images/tmp-26.gif"); }
+    54% {background-image: url("../images/tmp-27.gif"); }
+    56% {background-image: url("../images/tmp-28.gif"); }
+    58% {background-image: url("../images/tmp-29.gif"); }
+    60% {background-image: url("../images/tmp-30.gif"); }
+    62%   {background-image: url("../images/tmp-31.gif"); }
+    64%  {background-image: url("../images/tmp-32.gif"); }
+    66%  {background-image: url("../images/tmp-33.gif"); }
+    68%  {background-image: url("../images/tmp-34.gif"); }
+    70% {background-image: url("../images/tmp-35.gif"); }
+    72% {background-image: url("../images/tmp-36.gif"); }
+    74% {background-image: url("../images/tmp-37.gif"); }
+    76% {background-image: url("../images/tmp-38.gif"); }
+    78% {background-image: url("../images/tmp-39.gif"); }
+    80% {background-image: url("../images/tmp-40.gif"); }
+    82%   {background-image: url("../images/tmp-41.gif"); }
+    84%  {background-image: url("../images/tmp-42.gif"); }
+    86%  {background-image: url("../images/tmp-43.gif"); }
+    88%  {background-image: url("../images/tmp-44.gif"); }
+    90% {background-image: url("../images/tmp-45.gif"); }
+    92% {background-image: url("../images/tmp-46.gif"); }
+    94% {background-image: url("../images/tmp-47.gif"); }
+    96% {background-image: url("../images/tmp-48.gif"); }
+    98% {background-image: url("../images/tmp-49.gif"); }
+    100% {background-image: url("../images/tmp-50.gif"); }
+}

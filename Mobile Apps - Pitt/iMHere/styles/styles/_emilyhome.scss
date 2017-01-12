@@ -1,0 +1,79 @@
+
+		
+
+.e-page {
+	
+	background-color: $base-background-dark;
+	font-size: $base-font-size-home;
+	
+
+	
+		
+	.e-home-button{
+		width:100%;
+		height:55px;
+		border: none;
+		border-bottom: 5px solid;
+		margin-top: 5px;
+		background-position: left 15px center;
+		background-repeat: no-repeat;
+		font-family: $base-font !important;
+
+			p {text-align: left;
+				margin-left: 65px;
+				padding: 10px 10px 10px 0px;
+				font-size: $base-font-size-home;
+			}
+
+			
+					
+					} 
+
+	.e-myMeds-home{color:$meds;
+			border-bottom-color: $meds;
+			background-image: url(../images/lightbg/mymeds.svg);
+					}
+
+	.e-teleCath-home{color:$teleCath;
+			border-bottom-color: $teleCath;
+			background-image: url(../images/lightbg/telecath.svg);
+					}
+
+	.e-bmq-home{color:$bmq;
+			border-bottom-color: $bmq;
+			background-image: url(../images/lightbg/BMQs.svg);
+					}
+
+	.e-mood-home{color:$mood;
+		border-bottom-color: $mood;
+					background-image: url(../images/lightbg/mood.svg);}
+
+	.e-skin-home{color:$skin;
+			border-bottom-color: $skin;
+			background-image: url(../images/lightbg/skincare.svg);}
+
+	.e-education-home{color:$education;
+		border-bottom-color: $education;
+			background-image: url(../images/lightbg/education.svg);}
+
+	.e-healthRecord-home{color:$healthRecord;
+			border-bottom-color: $healthRecord;
+			background-image: url(../images/lightbg/healthrecord.svg);}
+
+	.e-dark-home {background-color: #4d4d4d;
+			color:#ffffff;}
+
+					
+	.tab-item {font-family: $base-font !important;}
+
+
+
+					}
+
+
+		
+
+	
+
+
+

@@ -1,0 +1,73 @@
+<ion-pane class="e-page">
+
+<!-- NAVIGATION BAR -->
+<ion-nav-view>
+  <ion-view class="e-page">
+    <ion-nav-bar class="bar bar-header bar-dark e-contact-border">
+      
+    </ion-nav-bar>
+
+    <ion-nav-buttons side="left">
+      <ion-nav-back-button class="button-clear e-contact">
+          <i class="ion-arrow-left-c"></i> Back
+        </ion-nav-back-button>
+      
+
+      <h1 class="title">Contacts</h1> 
+    </ion-nav-buttons>
+
+    <ion-nav-buttons side="right">
+      <button class="button button-clear">
+        <i class="icon ion-plus e-contact"></i>
+      </button>
+    </ion-nav-buttons>
+
+
+<!-- END NAVIGATION BAR -->
+
+<!-- BEGIN CONTENT -->
+<ion-content>
+
+
+    <div class="list">
+      <div class="item item-avatar">
+        <img src="images/person.svg">
+        <h2 style="color: white">{{vm.contact.title}}{{vm.contact.firstName}} {{vm.contact.lastName}}  Emily Shafer</h2>
+        <p style="color: white">{{vm.contact.group}} Designer</p>
+      </div>
+
+      <div class="list">
+        <a href="tel:{{vm.contact.phoneNumber}}" class="item item-icon-right e-contact-list-item">
+          Phone
+          <span class="item-note">
+            {{vm.contact.phoneNumber}}
+          </span>
+          <i class="icon ion-ios7-telephone"></i>
+        </a>
+        <div class="item e-contact-list-item">
+        Address
+        <span class="item-note">
+          {{vm.contact.address}}
+        </span>
+        </div>
+        <a href="mailto:{{vm.contact.email}}" class="item item-icon-right e-contact-list-item">
+          Email
+          <span class="item-note">
+            {{vm.contact.email}}
+          </span>
+          <i class="icon ion-ios7-email"></i>
+        </a>
+      </div>
+
+      <button class="button button-block e-contact-button">
+        Edit
+      </button>
+    </div>
+
+  </ion-content>
+<!-- END CONTENT -->
+
+
+  </ion-view>
+</ion-nav-view>
+</ion-pane>

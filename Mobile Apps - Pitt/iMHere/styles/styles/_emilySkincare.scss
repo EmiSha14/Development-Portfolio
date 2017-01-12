@@ -1,0 +1,117 @@
+@import "base";
+
+$chest: #8CC640;
+$shoulders: #F1762C;
+$arms: #00A99D;
+$stomach:#1495C9;
+$back:#E03C4B;
+$feet: #A44599;
+$legs: #55497A;
+$buttocks: #F9AD1A;
+$hands: #DB407F;
+
+.e-page {
+	background-color: $base-background-dark;
+	font-size: $base-font-size-home;
+
+	
+
+	.e-skin-border {
+			border-bottom: 3px $skin solid;
+	}
+
+	.e-textbox {background-color: $dark;
+				font-family: $base-font;
+				font-size: 18px;
+				color:#ffffff;
+				border: 1px solid;}
+
+	
+
+	.e-skin-bg {@extend .e-textbox;
+					background-color:$skin !important;
+					border-color:$skin !important;}
+
+	
+	.e-skin {color:$skin;
+			border-color:$skin;
+			
+			h1 {color:$skin;
+				font-family:$base-font;
+				font-size: 20px;
+				margin: 0;
+				}
+			}
+
+	.e-log-number {color:$base-font-color-dark;}
+
+	.e-log-button-selected {background-color: darken( $skin, 20% );
+							
+						}
+	.e-skinLog-info {background-color: $dark;
+					width:100%;
+					margin-top:-10px;
+					margin-bottom: 5px;
+
+					h1 {font-size: 18px;}
+
+					p {font-size: 18px;
+						padding-bottom: 5px;}
+
+					}
+
+	.item {background-color: $dark;
+			border:0;
+			padding-top: 10px;
+			padding-bottom: 10px;}
+
+	.e-chest{background-color: $chest;
+			color:$base-font-color-dark;}
+
+	.e-shoulders{background-color: $shoulders;
+			color:$base-font-color-dark;}
+
+	.e-arms{background-color: $arms;
+			color:$base-font-color-dark;}
+
+	.e-stomach{background-color: $stomach;
+			color:$base-font-color-dark;}
+
+	.e-buttocks{background-color: $buttocks;
+			color:$base-font-color-dark;}
+
+	.e-back{background-color: $back;
+			color:$base-font-color-dark;}
+
+	.e-feet{background-color: $feet;
+			color:$base-font-color-dark;}
+
+	.e-hands{background-color: $hands;
+			color:$base-font-color-dark;}
+
+	.e-legs{background-color: $legs;
+			color:$base-font-color-dark;}
+
+	.checkbox input:before, .checkbox .checkbox-icon:before 
+					{border-color:$skin;}
+	
+	.checkbox input:checked:before, .checkbox input:checked + .checkbox-icon:before
+					 {background-color: $skin;
+					border-color:$skin;}
+
+	li {
+
+		h1{margin-top: 0;}
+	}
+
+}
+
+
+
+
+		
+
+	
+
+
+

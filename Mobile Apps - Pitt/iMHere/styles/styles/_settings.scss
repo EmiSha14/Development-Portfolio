@@ -1,0 +1,98 @@
+// 1.Config
+$chest:     #8CC640;
+$shoulders: #F1762C;
+$arms:      #00A99D;
+$stomach:   #1495C9;
+$back:      #E03C4B;
+$feet:      #A44599;
+$legs:      #55497A;
+$buttocks:  #F9AD1A;
+$hands:     #DB407F;
+
+
+
+.mod-settings { font-family: $base-font;
+                color:$base-font-color-dark;
+                background: $base-background-color;
+
+
+  	.e-settings {color:$settings;
+      border-color:$settings;
+      background: $base-background-color;
+
+
+      h1 {color:#ffffff;
+        font-family:$base-font;
+        font-size: 20px;
+        margin: 0;
+        }
+
+      p {font-size: 18px;
+        color:$base-font-color-dark;}
+    }
+
+   	.e-settings-bg {@extend .e-textbox;
+      background-color:$settings !important;
+      border-color:$settings !important;
+    }
+
+   	.e-settings-info {background-color: $dark;
+   	  width:100%;
+      
+      margin-bottom: 5px;
+
+      h1 {font-size: 18px;}
+
+      p {font-size: 18px;
+        padding-bottom: 5px;
+        color:$base-font-color-dark;}
+
+    }
+
+
+  .e-chest{background-color: $chest;
+      color:$base-font-color-dark;}
+
+  .e-shoulders{background-color: $shoulders;
+      color:$base-font-color-dark;}
+
+  .e-arms{background-color: $arms;
+      color:$base-font-color-dark;}
+
+  .e-stomach{background-color: $stomach;
+      color:$base-font-color-dark;}
+
+  .e-buttocks{background-color: $buttocks;
+      color:$base-font-color-dark;}
+
+  .e-back{background-color: $back;
+      color:$base-font-color-dark;}
+
+  .e-feet{background-color: $feet;
+      color:$base-font-color-dark;}
+
+  .e-hands{background-color: $hands;
+      color:$base-font-color-dark;}
+
+  .e-legs{background-color: $legs;
+      color:$base-font-color-dark;}
+
+    .e-div{
+    vertical-align: middle;
+    line-height: 50px; 
+    }
+
+   .item {
+
+    .range {border-color: $base-background-color;
+    background-color: $base-background-color;
+    color: $settings;}} 
+
+    .toggle {
+
+  &.toggle-settings  {
+    @include toggle-style(#444444, $settings);
+  }}
+
+
+}

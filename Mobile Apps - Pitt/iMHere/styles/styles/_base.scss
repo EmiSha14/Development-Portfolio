@@ -1,0 +1,141 @@
+@import 'compass/css3';
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #4a87ee !default;
+$calm:                            #43cee6 !default;
+$balanced:                        #66cc33 !default;
+$energized:                       #f0b840 !default;
+$assertive:                       #ef4e3a !default;
+$royal:                           #8a6de9 !default;
+$dark:                            #444 !default;
+*/
+$positive:    #5a9bd5 !default;
+$base-background-color: #333333 !default;
+
+
+/* COLORS */
+$meds: #f1762C;
+$teleCath: #8CC640;
+$bmq: #FBAE17;
+$mood: #DB407F;
+$skin: #B730B7;
+$education: #00A99D;
+$healthRecord: #1495C9;
+$goals: #AD95E8;
+$messages: #8CC640;
+$rewards: #5dc1b7;
+$messages: #75AD1C;
+$settings: #5DC1B7;
+$contact: #A68ADD;
+$reminders: #5AC1D1;
+$profile: #47ACEA;
+$black: #000000;
+
+/*Base      */
+
+$base-background-light: #FFFFFF;
+$base-background-dark: #333333;
+$base-font: 'titilliumsemibold_upright';
+$base-font-color-dark:#FFFFFF;
+$base-font-color-light:#000000;
+$base-font-size-home: 1.125em;
+
+
+
+
+.e-font-style {
+	font-family: $base-font;
+	margin:5px 0;
+	color:$base-font-color-dark;}
+
+h1 {@extend .e-font-style;
+	font-size: 20px;
+}
+
+h2 {@extend .e-font-style;
+	font-size: 18px;
+}
+
+
+h3 {@extend .e-font-style;
+	font-size: 16px;
+}
+
+h4 {@extend .e-font-style;
+	font-size: 14px;
+}
+
+h5 {@extend .e-font-style;
+	font-size: 12px;
+}
+
+h6 {@extend .e-font-style;
+	font-size: 10px;
+}
+
+
+
+p {font-family: $base-font;
+		color:#ffffff;
+		font-size: 16px;
+		margin:0;}
+
+.e-text-left {text-align: left;}
+
+.e-text-center {text-align: center;}
+
+.title {font-family: $base-font;}
+
+.e-dark {background-color: #4d4d4d;
+			color:#ffffff;}
+
+.e-no-margin {margin:0;}
+
+.e-no-padding {padding:0 !important;}
+
+.e-list {padding:10px;
+			border-bottom: 1px solid;
+			width:100%;
+			font-family: $base-font;
+			color:#ffffff;
+			
+			p {font-size: 14px;
+				margin: 0;}
+
+			}
+
+.e-textbox {background-color: $base-background-dark;
+				font-family: $base-font;
+				font-size: 18px;
+				color:#ffffff;
+				border: 1px solid;}
+
+.e-schedule-block {font-family:$base-font;
+						border: 1px solid;
+						color:#fff;
+						padding:0;
+						margin-bottom: 10px;
+					}
+
+
+.e-left {border-right:0;
+			}
+
+.e-center   {border-left: 0;
+			border-right: 0;
+				}
+
+.e-right 	{
+				border-left: 0;}
+
+
+
+
+
+

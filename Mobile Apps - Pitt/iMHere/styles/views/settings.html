@@ -1,0 +1,300 @@
+<ion-view class="mod-settings" title="Settings">
+  <ion-content padding="true" scroll="true">
+
+
+      <div class="row e-schedule-block e-settings" ng-click="activePreference = !activePreference">
+          <div class="col-90 e-left e-settings-bg padding" ><h2 class="e-text-left e-no-margin">Edit Preferences</h2></div>
+
+          <div class="col-10 e-right e-settings-bg padding"> <i class="icon" class="e-text-center e-settings e-log-number e-no-margin" ng-class="activePreference ? 'ion-minus' : 'ion-plus'"></i></div>
+      </div>
+      <div class="e-settings-info padding" ng-hide="!activePreference">
+
+          <div class="e-settings-info">
+           
+
+            <div class="item item-divider e-settings-bg">
+              General Size       
+            </div>
+
+            <div class="item item-body e-settings">
+              <h1>Current Setting: </h1>    {{vm.type}}
+              <div class="row">
+                <button class="col-33 button e-settings-bg" ng-click="vm.setSmall()">Small</button>
+                <button class="col-33 button e-settings-bg" ng-click="vm.setMedium()">Medium</button>
+                <button class="col-33 button e-settings-bg" ng-click="vm.setLarge()">Large</button>
+              </div>
+
+          </div>
+              </br>
+            <div class="row e-schedule-block e-settings" ng-click="activeSizeAdvanced = !activeSizeAdvanced">
+            <div class="col-90 e-left e-settings-bg padding"><h2 class="e-text-left e-no-margin">Advanced Size Settings</h2></div>
+
+            <div class="col-10 e-right e-settings-bg padding"> <i class="icon" class="e-text-center e-settings e-log-number e-no-margin" ng-class="activeSizeAdvanced ? 'ion-minus' : 'ion-plus'"></i></div>
+            </div>
+            <div ng-hide="!activeSizeAdvanced">
+             
+
+                <div class="item item-divider e-settings-bg">
+                  Image Size
+                </div>
+
+                <div class="item item-body e-settings">
+                  <div class="item range">
+                    <i class="icon ion-minus-round"></i>
+                    <input type="range" name="imagesize" ng-model="vm.data.imageSize">
+                    <i class="icon ion-plus-round"></i>
+                  </div>
+                  <img src="images/koala.jpg" scale-image="{{vm.data.imageSize}}">
+                </div>
+
+           
+
+             
+
+                <div class="item item-divider e-settings-bg">
+                  Button Size
+                </div>
+
+                <div class="item item-body e-settings">
+                  <div class="item range">
+                    <i class="icon ion-minus-round"></i>
+                    <input type="range" name="buttonwidth" ng-model="vm.data.button.width">
+                    <i class="icon ion-plus-round"></i>
+                  </div>
+                  <div class="item range">
+                    <i class="icon ion-minus-round"></i>
+                    <input min="30" max="100" type="range" name="buttonheight" ng-model="vm.data.buttom.height">
+                    <i class="icon ion-plus-round"></i>
+                  </div>
+                  <div class="item range">
+                    <i class="icon ion-minus-round"></i>
+                    <input min="12" max="30" type="range" name="buttontext" ng-model="buttontext">
+                    <i class="icon ion-plus-round"></i>
+                  </div>
+                  <button class="button e-settings-bg" scale-button scale-width="{{vm.data.buttom.width}}" scale-height="{{vm.data.button.height}}" ng-style="{'font-size': buttontext + 'px'}">
+                  button-example
+                  </button>
+                </div>
+
+             
+
+              
+
+                <div class="item item-divider e-settings-bg">
+                  Text Size
+                </div>
+
+                <div class="item item-body e-settings">
+                  <h2>Size Percent</h2>
+                  <div class="item range">
+                    <i class="icon ion-minus-round"></i>
+                    <input min="100" max="150" ng-model="vm.data.textSize.percent" type="range">
+                    <i class="icon ion-plus-round"></i>
+                  </div>
+                  <p p-text-size = "{{vm.data.textSize.h3*vm.data.textSize.percent/100}}">Hello World!</br></p>
+
+
+                  <div class="row e-schedule-block e-settings" ng-click="activeAdvanced = !activeAdvanced">
+                  <div class="col-90 e-left e-settings-bg padding"><h1 class="e-text-left e-no-margin">Advanced Text Setting</h1></div>
+
+                  <div class="col-10 e-right e-settings-bg padding"> <i class="icon" class="e-text-center e-settings e-log-number e-no-margin" ng-class="activeAdvanced ? 'ion-minus' : 'ion-plus'"></i></div>
+                  </div>
+                  <div class="e-settings-info" ng-hide="!activeAdvanced">
+                    <div class="item item-body e-settings padding">
+
+                    <div class="item range">
+                      <i class="icon ion-minus-round"></i>
+                      <input min="25" max="30" ng-model="vm.data.textSize.h1" type="range">
+                      <i class="icon ion-plus-round"></i>
+                    </div>
+                    <div><p p-text-size = "{{vm.data.textSize.h1*vm.data.textSize.percent/100}}">Example: h1</p></br></div>
+
+                    <div class="item range">
+                      <i class="icon ion-minus-round"></i>
+                      <input min="23" max="28" ng-model="vm.data.textSize.h2" type="range">
+                      <i class="icon ion-plus-round"></i>
+                    </div>
+                    <div><p p-text-size = "{{vm.data.textSize.h2*vm.data.textSize.percent/100}}">Example: h2</p></br></div>
+
+                    <div class="item range">
+                      <i class="icon ion-minus-round"></i>
+                      <input min="21" max="26" ng-model="vm.data.textSize.h3" type="range">
+                      <i class="icon ion-plus-round"></i>
+                    </div>
+                    <div><p p-text-size = "{{vm.data.textSize.h3*vm.data.textSize.percent/100}}">Example: h3</p></br></div>
+            
+                    <div class="item range">
+                      <i class="icon ion-minus-round"></i>
+                      <input min="19" max="24" ng-model="vm.data.textSize.h4" type="range">
+                      <i class="icon ion-plus-round"></i>
+                    </div>
+                    <div><p p-text-size = "{{vm.data.textSize.h4*vm.data.textSize.percent/100}}">Example: h4</p></br></div>
+            
+                    <div class="item range">
+                      <i class="icon ion-minus-round"></i>
+                      <input min="17" max="22" ng-model="vm.data.textSize.h5" type="range">
+                      <i class="icon ion-plus-round"></i>
+                    </div>
+                    <div><p p-text-size = "{{vm.data.textSize.h5*vm.data.textSize.percent/100}}">Example: h5</p></br></div>
+            
+                    <div class="item range">
+                      <i class="icon ion-minus-round"></i>
+                      <input min="15" max="20" ng-model="vm.data.textSize.h6" type="range">
+                      <i class="icon ion-plus-round"></i>
+                    </div>
+                    <div><p p-text-size = "{{vm.data.textSize.h6*vm.data.textSize.percent/100}}">Example: h6</p></br></div>
+            
+                    <div class="item range">
+                      <i class="icon ion-minus-round"></i>
+                      <input min="15" max="40" ng-model="vm.data.textSize.h" type="range">
+                      <i class="icon ion-plus-round"></i>
+                    </div>
+                    <div><p p-text-size = "{{vm.data.textSize.h*vm.data.textSize.percent/100}}">Example: p</p></br></div>
+        
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              
+
+                <div class="item item-divider e-settings-bg">
+                  Grid
+                </div>
+                <div class="item item-body e-settings">
+                  <div class="item range">
+                    <i class="icon ion-minus-round"></i>
+                    <input min="70" max="200" ng-model="vm.data.grid.height" type="range">
+                    <i class="icon ion-plus-round"></i>
+                  </div>
+
+
+                  <div class="row e-text-center e-font-style e-no-margin e-div" ng-style="{height: vm.data.grid.height + 'px'}">
+                  <div class="col e-chest padding" p-text-size = "{{vm.data.textSize.h*vm.data.textSize.percent/100}}">Chest</div>
+                  <div class="col e-shoulders padding" p-text-size = "{{vm.data.textSize.h*vm.data.textSize.percent/100}}">Shoulders</div>
+                  <div class="col e-arms padding" p-text-size = "{{vm.data.textSize.h*vm.data.textSize.percent/100}}">Arms</div>
+                  </div>
+
+                  <div class="row e-text-center e-font-style e-no-margin e-div" ng-style="{height: vm.data.grid.height + 'px'}">
+                  <div class="col e-stomach padding" p-text-size = "{{vm.data.textSize.h*vm.data.textSize.percent/100}}">Stomach</div>
+                  <div class="col e-back padding" p-text-size = "{{vm.data.textSize.h*vm.data.textSize.percent/100}}">Back</div>
+                  <div class="col e-buttocks padding" p-text-size = "{{vm.data.textSize.h*vm.data.textSize.percent/100}}">Buttocks</div>
+                  </div>
+
+                  <div class="row e-text-center e-font-style e-no-margin e-div" ng-style="{height: vm.data.grid.height + 'px'}">
+                  <div class="col e-legs padding" p-text-size = "{{vm.data.textSize.h*vm.data.textSize.percent/100}}">Legs</div>
+                  <div class="col e-feet padding" p-text-size = "{{vm.data.textSize.h*vm.data.textSize.percent/100}}">Feet</div>
+                  <div class="col e-hands padding" p-text-size = "{{vm.data.textSize.h*vm.data.textSize.percent/100}}">Hands</div>
+                  </div>
+                </div>
+
+              
+            </div>
+
+              </div>
+
+            <div class="row e-schedule-block e-settings">
+          <div class="col-90 e-left e-settings-bg padding" ><h2 class="e-text-left e-no-margin">Preview Preferences</h2></div>
+
+          <div class="col-10 e-right e-settings-bg padding"> <i class="icon ion-eye" class="e-text-center e-settings e-log-number e-no-margin"></i></div>
+      </div>
+
+              <div class="e-settings-info padding">
+
+                  <div class="item item-divider e-settings-bg">
+             Image Preview      
+            </div>
+
+            <div class="item item-body e-settings">
+              <img src="images/koala.jpg" scale-image="{{vm.data.imageSize}}">
+              </div>
+
+              </br>
+
+              <div class="item item-divider e-settings-bg">
+             Button Preview      
+            </div>
+
+              <div class="item item-body e-settings">
+                <button class="button e-settings-bg" scale-button scale-width="{{vm.data.button.width}}" scale-height="{{vm.data.buttom.height}}">
+                button-example
+                </button>
+              </div>
+              </br>
+
+
+              <div class="item item-divider e-settings-bg">
+                Text
+              </div>
+
+              <div class="item item-body e-settings">
+                <p p-text-size = "{{vm.data.textSize.h3*vm.data.textSize.percent/100}}">Hello World!</p>
+              </div>
+              </br>
+
+              <div class="item item-divider e-settings-bg">
+                Grid Preview
+              </div>
+
+              <div class="item item-body e-settings">
+                <div class="row e-text-center e-font-style e-no-margin e-div" ng-style="{height: vm.data.grid.height + 'px'}">
+                <div class="col e-chest padding" p-text-size = "{{vm.data.textSize.h*vm.data.textSize.percent/100}}">Chest</div>
+                <div class="col e-shoulders padding" p-text-size = "{{vm.data.textSize.h*vm.data.textSize.percent/100}}">Shoulders</div>
+                <div class="col e-arms padding" p-text-size = "{{vm.data.textSize.h*vm.data.textSize.percent/100}}">Arms</div>
+                </div>
+
+                <div class="row e-text-center e-font-style e-no-margin e-div" ng-style="{height: vm.data.grid.height + 'px'}">
+                <div class="col e-stomach padding" p-text-size = "{{vm.data.textSize.h*vm.data.textSize.percent/100}}">Stomach</div>
+                <div class="col e-back padding" p-text-size = "{{vm.data.textSize.h*vm.data.textSize.percent/100}}">Back</div>
+                <div class="col e-buttocks padding" p-text-size = "{{vm.data.textSize.h*vm.data.textSize.percent/100}}">Buttocks</div>
+                </div>
+
+                <div class="row e-text-center e-font-style e-no-margin e-div" ng-style="{height: vm.data.grid.height + 'px'}">
+                <div class="col e-legs padding" p-text-size = "{{vm.data.textSize.h*vm.data.textSize.percent/100}}">Legs</div>
+                <div class="col e-feet padding" p-text-size = "{{vm.data.textSize.h*vm.data.textSize.percent/100}}">Feet</div>
+                <div class="col e-hands padding" p-text-size = "{{vm.data.textSize.h*vm.data.textSize.percent/100}}">Hands</div>
+                </div>
+              </div>
+              
+              </div>
+
+        
+             <div class="e-settings-info padding"> 
+            
+
+            <div class="item item-divider e-settings-bg">
+              Voice Feedback
+            </div>
+
+            <div class="item item-body e-settings">
+               <li class="item item-toggle e-settings">
+                Image Voice FeedBack
+              <label class="toggle toggle-settings">
+              <input type="checkbox" ng-model="vm.data.soundFeedback">
+              <div class="track">
+                <div class="handle"></div>
+              </div>
+              </label>
+              </li>
+
+              {{vm.data.soundFeedback}}
+            </div>
+
+          </div>
+
+          <div class="e-settings-info padding">
+
+      <button class="button e-settings-bg" ng-click="vm.submitPref()">
+        Apply
+      </button>
+      
+    
+    
+
+    </div>
+
+
+  </ion-content>
+
+</ion-view>

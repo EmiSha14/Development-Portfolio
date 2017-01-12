@@ -1,0 +1,440 @@
+<ion-pane class="e-page">
+
+<!-- NAVIGATION BAR -->
+<ion-nav-view>
+	<ion-view class="e-page">
+		<ion-nav-bar class="bar bar-header bar-dark e-healthRecord-border">
+			
+		</ion-nav-bar>
+
+		<ion-nav-buttons side="left">
+			<ion-nav-back-button class="button-clear e-healthRecord">
+    			<i class="ion-arrow-left-c"></i> Back
+  			</ion-nav-back-button>
+		  <button class="button button-clear">
+		  	<i class="icon ion-home"></i>
+		  </button> 
+
+		  <h1 class="title">Add to History</h1> 
+		</ion-nav-buttons>
+
+		<ion-nav-buttons side="right">
+			<button class="button button-clear">
+				<i class="icon ion-clipboard e-healthRecord"></i>
+			</button>
+		</ion-nav-buttons>
+
+
+<!-- END NAVIGATION BAR -->
+
+<!-- BEGIN CONTENT -->
+
+  <ion-content class="padding">
+
+  
+ <button class="e-hr-button e-surgicalHistory-home e-dark">
+    <p>Neurosurgeries <i class="icon icon-right ion-chevron-down"></i></p> 
+  </button>
+
+		
+		<ul class="list e-surgicalRecord e-surgicalHistory-summary">
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Shunt Placement 
+           <p>
+            <li><input type="text" name="placement" placeholder="Location of shunt (VP, VA, Lung, other...)" class="e-surgical-input"></li>
+
+            <li><input type="text" name="replacement" placeholder="Date of Replacement" class="e-surgical-input"></li>
+           </p>
+        </li>
+        
+
+       <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Shunt Revision 
+           <p>
+            <li><input type="text" name="revision" placeholder="Shunt type(s) replaced" class="e-surgical-input"></li>
+
+            <li><input type="text" name="revisiondate" placeholder="Date of Replacement" class="e-surgical-input"></li>
+           </p>
+        </li>
+
+       <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+          Shunt Removal
+         </li>
+ 
+       <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Tethered Cord Release
+        </li>
+
+       <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Chiari Decompression
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+          Endoscopic Third Ventriculostomy
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Syringomyelia Treatment
+        </li>
+
+
+
+          <div class="padding-vertical">
+      <button class="button button-small e-surgical-bg edit-center">Add</button>
+    </div>  
+ 
+  </ul>
+
+  <button class="e-hr-button e-surgicalHistory-home e-dark">
+    <p>Urologic Surgeries <i class="icon icon-right ion-chevron-down"></i></p> 
+  </button>
+
+    
+    <ul class="list e-surgicalRecord e-surgicalHistory-summary">
+
+        <button class="e-hr-button  e-dark">
+    <h2>Bladder Augmentation <i class="icon icon-right ion-chevron-down"></i></h2> 
+  </button>
+        <ul class="padding list e-surgicalRecord e-surgicalHistory-summary">
+            <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Anti-reflux Procedure
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Bladder Outlet Procedure
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Stone Surgery/Removal
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Orchiopexy/Orchiectomy
+
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Ileovesicostomy
+
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Other
+        </li>
+
+        </ul>
+       <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Artificial Urinary Sphincter
+        </li>
+
+       <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+         Bladder Neck Procedure
+         </li>
+ 
+       <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Bladder Division
+        </li>
+
+       <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Catheterizable Stoma
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Appendicovesicostomy
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Vesicostomy
+
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Vesicostomy Closure
+
+        </li>
+
+        
+        <div class="padding-vertical">
+      <button class="button button-small e-surgical-bg edit-center">Add</button>
+    </div>  
+
+  </ul>
+
+    <button class="e-hr-button e-surgicalHistory-home e-dark">
+    <p>Bowel Surgeries <i class="icon icon-right ion-chevron-down"></i></p> 
+  </button>
+
+    
+    <ul class="list e-surgicalRecord e-surgicalHistory-summary">
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Enema Stoma Creation
+        </li>
+
+       <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Ileostomy
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Colostomy
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Gastrostomy
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Cesostomy button/Chait tube
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Other
+        </li>
+
+
+          <div class="padding-vertical">
+      <button class="button button-small e-surgical-bg edit-center">Add</button>
+    </div>  
+  </ul>
+
+    <button class="e-hr-button e-surgicalHistory-home e-dark">
+    <p>Skin Surgeries <i class="icon icon-right ion-chevron-down"></i></p> 
+  </button>
+
+    
+    <ul class="list e-surgicalRecord e-surgicalHistory-summary">
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Debridement
+        </li>
+
+       <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Flap
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Graft
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Other
+        </li>
+
+          <div class="padding-vertical">
+      <button class="button button-small e-surgical-bg edit-center">Add</button>
+    </div>  
+  </ul>
+
+  <button class="e-hr-button e-surgicalHistory-home e-dark">
+    <p>Orthopedic Surgeries <i class="icon icon-right ion-chevron-down"></i></p> 
+  </button>
+
+    
+    <ul class="list e-surgicalRecord e-surgicalHistory-summary">
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Scoliosis
+        </li>
+
+       <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Kyphosis
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Hip Flexion Contracture
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Hip Subluxation
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Knee Flexion
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           External Tibial Torsion
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Ankle Valgus Deformity
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Equinis Contracture
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Clubfoot Deformity
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Congenital Deformity of the Foot
+        </li>
+
+        <li class="item item-checkbox checkbox-positive">
+           <label class="checkbox">
+             <input type="checkbox">
+           </label>
+           Congenital Vertical Talus
+        </li>
+
+        
+
+
+          <div class="padding-vertical">
+      <button class="button button-small e-surgical-bg edit-center">Add</button>
+    </div>  
+  </ul>
+
+
+<button class="e-hr-button e-surgicalHistory-home e-dark">
+    <p>Other Surgeries <i class="icon icon-right ion-chevron-down"></i></p> 
+  </button>
+
+<div class="e-surgicalRecord e-surgicalHistory-summary">
+
+    <label class="item item-input">
+    <textarea placeholder="Type other surgeries here... "></textarea>
+  </label>
+
+  <div class="padding-vertical">
+      <button class="button button-small e-surgical-bg edit-center">Add</button>
+    </div>  
+</div>
+
+
+ 
+<button class="button button-full e-surgical-bg">Submit</button>
+
+		
+
+  </ion-content>
+<!-- END CONTENT -->
+
+
+	</ion-view>
+</ion-nav-view>
+</ion-pane>
+

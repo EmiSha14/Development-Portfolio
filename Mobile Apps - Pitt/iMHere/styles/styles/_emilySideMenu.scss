@@ -1,0 +1,70 @@
+
+		
+
+.e-page {
+	
+	background-color: $base-background-dark;
+	font-size: $base-font-size-home;
+	font-family: $base-font;		
+	
+
+	.e-menu-item {width:100%;
+		margin-top:1%;
+		height:10%;
+		background-color: $dark;
+		background-position: left 3% center;
+		background-repeat: no-repeat;
+		background-size: 11%;
+	
+			p {text-align: left;
+					padding: 5% 15px;
+					margin-left: 12%;
+					font-size: $base-font-size-home;
+						
+				}
+		}
+
+	.e-myMeds-menu{
+			background-image: url(../images/mymeds.svg);
+					}
+
+	.e-teleCath-menu{
+			background-image: url(../images/telecath.svg);
+					}
+
+	.e-bmq-menu{
+			background-image: url(../images/bmqs.svg);
+					}
+
+	.e-mood-menu{
+		background-image: url(../images/mood.svg);}
+
+	.e-skin-menu{
+			background-image: url(../images/skincare.svg);}
+
+	.e-education-menu{
+		background-image: url(../images/education.svg);}
+
+	.e-healthRecord-menu{
+			background-image: url(../images/myHealth.svg);}
+
+	.e-contact-menu{
+			background-image: url(../images/contacts.svg);}
+
+	.e-messages-menu{
+			background-image: url(../images/messages.svg);}
+
+	.e-settings-menu{
+			background-image: url(../images/settings.svg);}
+
+
+
+					}
+
+
+		
+
+	
+
+
+

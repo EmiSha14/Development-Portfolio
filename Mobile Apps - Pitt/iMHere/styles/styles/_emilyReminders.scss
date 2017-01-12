@@ -1,0 +1,23 @@
+.e-page {
+	
+	background-color: $base-background-dark;
+	font-size: $base-font-size-home;
+
+	.e-reminders {color:$reminders;}
+
+	.e-reminders-border {border-bottom: 3px $reminders solid;}			
+
+	.e-reminders-button {background-color: $dark;
+					color:$reminders;
+					font-family: $base-font;
+					font-size: 18px;
+					border:1px $light solid;
+					margin-top:10px;}
+
+
+
+
+	
+
+}
+		

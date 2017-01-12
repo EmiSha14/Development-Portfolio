@@ -1,0 +1,183 @@
+<ion-pane class="e-page">
+
+<!-- NAVIGATION BAR -->
+<ion-nav-view>
+	<ion-view class="e-page">
+		<ion-nav-bar class="bar bar-header bar-dark e-profile-border">
+			
+		</ion-nav-bar>
+
+		<ion-nav-buttons side="left">
+			<ion-nav-back-button class="button-clear e-profile">
+    			<i class="ion-arrow-left-c"></i> Back
+  			</ion-nav-back-button>
+		  <button class="button button-clear">
+		  	<i class="icon ion-home"></i>
+		  </button> 
+
+		  <h1 class="title">My Profile</h1> 
+		</ion-nav-buttons>
+
+		<ion-nav-buttons side="right">
+			<button class="button button-clear">
+				<i class="icon ion-clipboard e-profile"></i>
+			</button>
+		</ion-nav-buttons>
+
+
+<!-- END NAVIGATION BAR -->
+
+<!-- BEGIN CONTENT -->
+
+  <ion-content class="padding">
+
+    <button class="e-hr-button e-profile-home e-dark">
+    <p>Patient Demographics <i class="icon icon-right ion-chevron-down"></i></p>
+  </button>
+
+
+  <form class="e-profile-summary list">
+
+		  <h1 class="e-profile">Name</h1>
+		  
+    		<p><input type="text" name="name" placeholder="Full Name" class="e-profile-input"></p>
+  
+
+		  <h1 class="e-profile">Date of Birth</h1>
+		  <p><input type="text" name="dob" placeholder="mm/dd/yyyy" class="e-profile-input"></p>
+
+		  <h1 class="e-profile">Race</h1>
+		  	<p><input type="radio" name="race" value="white">White</p>
+  			<p><input type="radio" name="race" value="black"> Black or African American</p>
+  			<p><input type="radio" name="race" value="asian"> Asian</p>
+  			<p><input type="radio" name="race" value="native hawaiian" checked> Native Hawaiian or other Pacific Island</p>
+			<p><input type="radio" name="race" value="indian" checked> American Indian or Alaska Native</p>
+			<p><input type="radio" name="race" value="other"> Other</p>
+			<p><input type="radio" name="race" value="noanswer"> Prefer Not to Answer</p>
+			 <p><input type="radio" name="race" value="unknown"> Unknown</p>
+
+
+  		</p>
+
+ 		  <h1 class="e-profile">Ethnicity</h1>
+ 		  <p><input type="radio" name="ethnicity" value="hispanic"> Hispanic or Latino</p>
+ 		  <p><input type="radio" name="ethnicity" value="not hispanic"> Not Hispanic or Latino</p>
+
+ 		  <h1 class="e-profile">Gender</h1>
+ 		  <p><input type="radio" name="gender" value="male"> Male</p>
+ 		  <p><input type="radio" name="gender" value="female"> Female</p>
+
+ 		  <h1 class="e-profile">Height</h1>
+ 		  <p><input type="text" name="height" placeholder="Enter height" class="e-profile-input"></p>
+
+ 		  <h1 class="e-profile">Weight</h1>
+ 		  <p><input type="text" name="Weight" placeholder="Enter weight" class="e-profile-input"></p>
+
+ 		  <h1 class="e-profile">Address</h1>
+ 		  <p><input type="text" name="address" placeholder="Enter Address" class="e-profile-input"></p>
+
+ 		  <h1 class="e-profile">Insurance</h1>
+ 		  <p><input type="text" name="insurance" placeholder="Enter Insurance Information" class="e-profile-input"></p>
+
+ 		  <h1 class="e-profile">Emergency Contact</h1>
+ 		  <p><input type="text" name="emergency name" placeholder="Name" class="e-profile-input"></p>
+
+ 		  <p><input type="text" name="emergency phone" placeholder="Phone Number" class="e-profile-input"></p>
+
+ 		  <p><input type="text" name="emergency address" placeholder="Address" class="e-profile-input"></p>
+
+ 		  <p><input type="text" name="emergency email" placeholder="Email" class="e-profile-input"></p>
+
+ 		  <h1 class="e-profile">Vaccination Status</h1>
+ 		  <p><input type="text" name="vaccination" placeholder="Enter vaccination status" class="e-profile-input"></p>
+
+<div class="padding-vertical">
+      <button class="button button-small e-profile-button edit-center">Update</button>
+    </div> 
+
+</form>
+
+  <button class="e-hr-button e-profile-home e-dark">
+    <p>Primary Care Practitioner <i class="icon icon-right ion-chevron-down"></i></p>
+  </button>
+
+    <div class="e-profile-summary">
+
+  		<h1 class="e-profile">Name</h1>
+		  <p><input type="text" name="pcp name" placeholder="Name" class="e-profile-input"></p>
+
+		  <h1 class="e-profile">Specialty</h1>
+		  <p><input type="text" name="service" placeholder="Service" class="e-profile-input"></p>
+
+		  <h1 class="e-profile">Contact Information</h1>
+ 		  
+
+ 		  <p><input type="text" name="pcp phone" placeholder="Phone Number" class="e-profile-input"></p>
+
+ 		  <p><input type="text" name="pcp address" placeholder="Address" class="e-profile-input"></p>
+
+ 		  <p><input type="text" name="pcp email" placeholder="Email" class="e-profile-input"></p>
+
+ 		  	<div class="padding-vertical">
+      <button class="button button-small e-profile-button edit-center">Update</button>
+    </div> 
+
+ 	</div>
+
+    <button class="e-hr-button e-profile-home e-dark">
+    <p>Administrative Information <i class="icon icon-right ion-chevron-down"></i></p>
+  </button>
+
+
+  <div class="e-profile-summary">
+
+  		<h1 class="e-profile">Insurance Provider</h1>
+		  <p><input type="text" name="insurance" placeholder="Provider Name" class="e-profile-input"></p>
+
+		  <h1 class="e-profile">Policy Type</h1>
+		  <p><input type="text" name="policy" placeholder="HMO, PPO, etc..." class="e-profile-input"></p>
+
+		  <h1 class="e-profile">Policy ID number</h1>
+ 		  <p><input type="text" name="policyID" placeholder="555555555" class="e-profile-input"></p>
+
+ 		  <h1 class="e-profile">Copay Information</h1>
+ 		  <p><input type="text" name="copay" placeholder="copay information" class="e-profile-input"></p>
+
+ 		  <h1 class="e-profile">Contact Numbers</h1>
+ 		  <p><input type="text" name="insuranceContact" placeholder="1-800-555-5555" class="e-profile-input"></p>
+
+ 		  <h1 class="e-profile">Advance Directives</h1>
+ 		  <div class="padding">
+		  		<h1 class="e-profile">Guardianship</h1>
+		  			  <p><input type="text" name="guardianship" placeholder="Guardianship" class="e-profile-input"></p>
+
+		  		<h1 class="e-profile">HCP</h1>
+		  			  <p><input type="text" name="hcp" placeholder="HCP" class="e-profile-input"></p>
+
+		  		<h1 class="e-profile">Personal Representative</h1>
+		  			  <p><input type="text" name="representative" placeholder="Representative Name" class="e-profile-input"></p>
+		  		<h1 class="e-profile">Organ Donation Status</h1>
+		  			  <p><input type="radio" name="donation" value="donor">Donor</p>
+ 		  <p><input type="radio" name="donation" value="non-donor"> Non-Donor</p>
+		  </div>
+
+ 		  
+
+ 		  	<div class="padding-vertical">
+      <button class="button button-small e-profile-button edit-center">Update</button>
+    </div> 
+
+</div>
+ 
+
+
+		
+
+  </ion-content>
+<!-- END CONTENT -->
+
+
+	</ion-view>
+</ion-nav-view>
+</ion-pane>
+

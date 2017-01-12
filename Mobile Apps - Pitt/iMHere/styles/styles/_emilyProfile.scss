@@ -1,0 +1,77 @@
+
+@import "base";		
+
+.e-page {
+	
+	background-color: $base-background-dark;
+	font-size: $base-font-size-home;
+	
+	
+
+	.e-profile-list-item
+		 {width:100%;
+		margin:1% 0;
+		height:10%;
+		border: none;
+		color: $base-font-color-dark;
+		background-color: $dark;
+
+		i{color: $profile;}
+
+			}
+
+	.e-profile
+
+	{color: $profile;
+	}
+
+	.e-profile-border {border-bottom: 3px $profile solid;}			
+
+	.e-profile-button
+				{background-color: $profile;
+					color:$base-font-color-dark;
+					font-family: $base-font;
+					font-size: 18px;
+					border:none;}
+
+	.e-profile-home {color:$profile;
+			border-bottom-color: $profile;}
+
+	.e-profile-summary {background-color:$base-background-dark;
+				border: 1px solid $profile;
+				padding: 5px;
+				margin-bottom: 20px;
+
+				h1 {background-color: $dark;
+					padding:5px;
+					color: $profile !important;
+					}
+
+				h2 {padding:5px;
+					
+					font-size: 18px;
+					margin: 0;
+					border-bottom: 1px solid #4d4d4d;}
+
+				p {padding: 5px;
+					font-size: 16px;}
+			}
+
+	.e-profile-input {background: $base-background-dark;
+						color: $base-font-color-dark;
+						border-bottom: $profile 1px solid;
+						font-family: $base-font;
+						font-size: 16px;
+						}
+
+	input[type="radio"] {
+    margin: 0px 10px;
+    line-height: normal;}
+
+}
+		
+
+	
+
+
+

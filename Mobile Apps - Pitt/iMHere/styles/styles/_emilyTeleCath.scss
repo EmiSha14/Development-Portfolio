@@ -1,0 +1,50 @@
+@import "base";
+
+.e-page {
+	background-color: $base-background-dark;
+	font-size: $base-font-size-home;
+
+	
+
+	.e-telecath-border {
+			border-bottom: 3px $teleCath solid;
+	}
+
+	.e-textbox {background-color: $dark;
+				font-family: $base-font;
+				font-size: 18px;
+				color:#ffffff;
+				border: 1px solid;}
+
+	
+
+	.e-telecath-bg {@extend .e-textbox;
+					background-color:$teleCath !important;
+					text-align: center;
+					border-color:$teleCath !important;}
+
+	
+	.e-telecath {color:$teleCath;
+			border-color:$teleCath;
+			
+			h1 {color:$teleCath;
+				font-family:$base-font;
+				font-size: 20px;
+				margin: 0;
+				}
+			}
+
+	
+
+
+}
+
+
+
+
+		
+
+	
+
+
+

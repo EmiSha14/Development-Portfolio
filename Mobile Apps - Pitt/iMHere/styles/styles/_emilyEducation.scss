@@ -1,0 +1,85 @@
+@import "base";
+
+.e-page {
+	background-color: $base-background-dark;
+	font-size: $base-font-size-home;
+
+	
+
+	.e-education-border {
+			border-bottom: 3px $education solid;
+	}
+ 
+	.e-textbox {background-color: $dark;
+				font-family: $base-font;
+				font-size: 18px;
+				color:#ffffff;
+				border: 1px solid;}
+
+	
+
+	.e-education-bg {@extend .e-textbox;
+					background-color:$education !important;
+					text-align: center;
+					border-color:$education !important;}
+
+	.e-tab-is-selected {background-color: darken( $education, 10% ) !important;
+						border-color: darken( $education, 10%) !important;}
+
+	
+	.e-education {color:$education !important;
+			border-color: $education !important;
+			background-image: none;
+
+			h1 {color:$education;
+				font-family:$base-font;
+				font-size: 20px;
+				margin: 0;
+				}
+			}
+
+	.e-quiz-question {height: 33%;
+					padding: 30px;
+					margin-top: 10px;
+					text-align: center;
+					color:#fff;
+						font-family: $base-font;
+						background-color: lighten( $education, 10%);
+
+					}
+
+	
+	.e-answer-button {border-left:5px solid;
+						border-right:1px solid;
+						font-family: $base-font;
+				background-color: $dark;
+				color:#fff;
+
+				}
+
+
+					.e-a1 {border-color:#8BC541;
+						 }
+
+					.e-a2 {border-color:#1394C8;}
+
+					.e-a3 {border-color:#922A8C;}
+
+					.e-a4 {border-color:#F1762C;}
+
+	.e-is-selected {background-color: #d3d3d3 !important;
+					color:#000;}
+
+
+
+}
+
+
+
+
+		
+
+	
+
+
+

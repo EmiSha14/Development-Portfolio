@@ -1,0 +1,462 @@
+@import "base";
+
+.e-page {
+	background-color: $base-background-dark;
+	font-size: $base-font-size-home;
+
+
+
+	.e-hr-button{
+		width:100%;
+		height:55px;
+		border: none;
+		border-bottom: 5px solid;
+		margin-top: 5px;
+		background-position: left 15px center;
+		background-repeat: no-repeat;
+		font-family: $base-font !important;
+
+			p {text-align: center;
+				padding: 10px 10px 10px 0px;
+				font-size: 18px;
+			}
+
+			i {	font-size: 20px;
+				position: absolute;
+				right:20px;
+			}
+					
+					} 
+
+	.e-outline {border: 1px solid;}
+
+	.e-medicalHistory-home{color:$healthRecord;
+			border-bottom-color: $healthRecord;
+					}
+
+	.e-surgicalHistory-home{color:$teleCath;
+			border-bottom-color: $teleCath;
+					}
+
+	.e-allergy-home{color:$bmq;
+			border-bottom-color: $bmq;
+					}
+
+	.e-med-home{color:$meds;
+			border-bottom-color: $meds;
+					}
+
+	.e-family-home{color:$skin;
+			border-bottom-color: $skin;
+					}
+
+	.e-function-home{color:$education;
+			border-bottom-color: $education;
+					}
+
+	.e-social-home{color:$mood;
+			border-bottom-color: $mood;
+					}
+
+	.e-healthRecord-border {
+			border-bottom: 3px $healthRecord solid;
+	}
+ 
+	.e-textbox {background-color: $dark;
+				font-family: $base-font;
+				font-size: 18px;
+				color:#ffffff;
+				border: 1px solid;}
+
+	
+
+	.e-healthRecord-bg {@extend .e-textbox;
+					background-color:$healthRecord !important;
+					text-align: center;
+					border-color:$healthRecord !important;}
+
+	.edit-center {
+    margin: 0 35%; 
+    width: 30%;}
+
+	.e-tab-is-selected {background-color: darken( $healthRecord, 10% ) !important;
+						border-color: darken( $healthRecord, 10%) !important;}
+
+	.e-hr-summary {background-color:$base-background-dark;
+				border: 1px solid $healthRecord;
+				padding: 5px;
+				margin-bottom: 20px;
+
+				h1 {background-color: $dark;
+					padding:5px;
+					color: lighten( $healthRecord, 10% ) !important;
+					}
+
+				h2 {padding:5px;
+					
+					font-size: 18px;
+					margin: 0;
+					border-bottom: 1px solid #4d4d4d;}
+
+				p {padding: 5px;
+					font-size: 16px;}
+			}
+
+	.e-surgicalHistory-summary {background-color:$base-background-dark;
+				border: 1px solid $teleCath;
+				padding: 5px;
+				margin-bottom: 20px;
+
+				h1 {background-color: $dark;
+					padding:5px;
+					color: $teleCath !important;
+					}
+
+				h2 {padding:5px;
+					
+					font-size: 18px;
+					margin: 0;
+					border-bottom: 1px solid #4d4d4d;}
+
+				p {padding: 5px;
+					font-size: 16px;}
+			}
+
+	.e-allergy-summary {background-color:$base-background-dark;
+				border: 1px solid $bmq;
+				padding: 5px;
+				margin-bottom: 20px;
+
+				h1 {background-color: $dark;
+					color: $bmq !important;
+					padding:5px;
+					font-size: 20px;
+					text-align: left;
+					}
+
+				h2 {padding:5px;
+					
+					font-size: 18px;
+					margin: 0;
+					border-bottom: 1px solid #4d4d4d;}
+
+				p {padding: 5px;
+					font-size: 16px;}
+			}
+
+	.e-med-summary {background-color:$base-background-dark;
+				border: 1px solid $meds;
+				padding: 5px;
+				margin-bottom: 20px;
+
+				h1 {background-color: $dark;
+					padding:5px;
+					color: $meds !important;
+					}
+
+				h2 {padding:5px;
+					
+					font-size: 18px;
+					margin: 0;
+					border-bottom: 1px solid #4d4d4d;}
+
+				p {padding: 5px;
+					font-size: 16px;}
+			}
+
+	.e-family-summary {background-color:$base-background-dark;
+				border: 1px solid $skin;
+				padding: 5px;
+				margin-bottom: 20px;
+
+				h1 {background-color: $dark;
+					padding:5px;
+					color: lighten( $skin, 10% );
+					}
+
+				h2 {padding:5px;
+					
+					font-size: 18px;
+					margin: 0;
+					border-bottom: 1px solid #4d4d4d;}
+
+				p {padding: 5px;
+					font-size: 16px;}
+			}
+
+	.e-function-summary {background-color:$base-background-dark;
+				border: 1px solid $education;
+				padding: 5px;
+				margin-bottom: 20px;
+
+				h1 {background-color: $dark;
+					padding:5px;
+					color: $education !important;
+					}
+
+				h2 {padding:5px;
+					
+					font-size: 18px;
+					margin: 0;
+					border-bottom: 1px solid #4d4d4d;}
+
+				p {padding: 5px;
+					font-size: 16px;}
+			}
+
+	.e-social-summary {background-color:$base-background-dark;
+				border: 1px solid $mood;
+				padding: 5px;
+				margin-bottom: 20px;
+
+				h1 {background-color: $dark;
+					padding:5px;
+					color: $mood !important;
+					}
+
+				h2 {padding:5px;
+					
+					font-size: 18px;
+					margin: 0;
+					border-bottom: 1px solid #4d4d4d;}
+
+				p {padding: 5px;
+					font-size: 16px;}
+			}
+	
+	.e-healthRecord {color:$healthRecord !important;
+			border-color: $healthRecord !important;
+			background-image: none;
+
+			h1 {color:$healthRecord;
+				font-family:$base-font;
+				font-size: 20px;
+				margin: 0;
+				}
+
+			li {font-size: $base-font-size-home;
+				color:$base-font-color-dark;}
+
+			.checkbox input:before, .checkbox .checkbox-icon:before 
+					{border-color:$healthRecord;}
+	
+	.checkbox input:checked:before, .checkbox input:checked + .checkbox-icon:before
+					 {background-color: $healthRecord;
+					border-color:$healthRecord;}
+
+
+			}
+
+	.e-surgicalRecord {color:$teleCath !important;
+			border-color: $teleCath !important;
+			background-image: none;
+
+			h1 {color:$teleCath;
+				font-family:$base-font;
+				font-size: 20px;
+				margin: 0;
+				}
+
+			li {font-size: $base-font-size-home;
+				color:$base-font-color-dark;}
+
+			.checkbox input:before, .checkbox .checkbox-icon:before 
+					{border-color:$teleCath;}
+	
+	.checkbox input:checked:before, .checkbox input:checked + .checkbox-icon:before
+					 {background-color: $teleCath;
+					border-color:$teleCath;}
+			}
+
+
+	.e-allergyRecord {color:$bmq !important;
+			border-color: $bmq  !important;
+			background-image: none;
+
+			h1 {color:$bmq;
+				font-family:$base-font;
+				font-size: 20px;
+				margin: 0;
+				}
+
+			li {font-size: $base-font-size-home;
+				color:$base-font-color-dark;}
+
+			.checkbox input:before, .checkbox .checkbox-icon:before 
+					{border-color:$bmq;}
+	
+	.checkbox input:checked:before, .checkbox input:checked + .checkbox-icon:before
+					 {background-color: $bmq;
+					border-color:$bmq;}
+
+			a {text-decoration: none;
+				border-bottom: 1px solid $bmq;
+				padding:0 5px 3px 5px;
+				color:#fff;
+				font-size: 18px;
+				margin-bottom: 5px;}
+
+			}
+
+	.e-medRecord {color:$meds !important;
+			border-color: $meds  !important;
+			background-image: none;
+
+			h1 {color:$meds;
+				font-family:$base-font;
+				font-size: 20px;
+				margin: 0;
+				}
+
+			li {font-size: $base-font-size-home;
+				color:$base-font-color-dark;}
+
+			.checkbox input:before, .checkbox .checkbox-icon:before 
+					{border-color:$meds;}
+	
+	.checkbox input:checked:before, .checkbox input:checked + .checkbox-icon:before
+					 {background-color: $meds;
+					border-color:$meds;}
+
+
+			}
+
+	.e-family {color:$skin !important;
+			border-color: $skin  !important;
+			background-image: none;
+
+			h1 {color:$base-font-color-dark;
+				font-family:$base-font;
+				font-size: 20px;
+				margin: 0;
+				background-color: $base-background-dark;
+				}
+
+			li {font-size: $base-font-size-home;
+				color:$base-font-color-dark;}
+
+			.checkbox input:before, .checkbox .checkbox-icon:before 
+					{border-color:$skin;}
+	
+	.checkbox input:checked:before, .checkbox input:checked + .checkbox-icon:before
+					 {background-color: $skin;
+					border-color:$skin;}
+
+
+			}
+
+	.e-function {color:$education !important;
+			border-color: $education  !important;
+			background-image: none;
+
+			h1 {color:$base-font-color-dark;
+				font-family:$base-font;
+				font-size: 20px;
+				margin: 0;
+				background-color: $base-background-dark;
+				}
+
+			li {font-size: $base-font-size-home;
+				color:$base-font-color-dark;}
+
+			.checkbox input:before, .checkbox .checkbox-icon:before 
+					{border-color:$education;}
+	
+	.checkbox input:checked:before, .checkbox input:checked + .checkbox-icon:before
+					 {background-color: $education;
+					border-color:$education;}
+
+
+			}
+
+.e-social {color:$mood !important;
+			border-color: $mood  !important;
+			background-image: none;
+
+			h1 {color:$base-font-color-dark;
+				font-family:$base-font;
+				font-size: 20px;
+				margin: 0;
+				background-color: $base-background-dark;
+				}
+
+			li {font-size: $base-font-size-home;
+				color:$base-font-color-dark;}
+
+			.checkbox input:before, .checkbox .checkbox-icon:before 
+					{border-color:$mood;}
+	
+	.checkbox input:checked:before, .checkbox input:checked + .checkbox-icon:before
+					 {background-color: $mood;
+					border-color:$mood;}
+
+
+			}
+
+	.e-is-selected {background-color: #d3d3d3 !important;
+					color:#000;}
+
+ .item-input {padding:0 !important;}
+
+ textarea	{border: 1px solid #healthRecord;
+    font-size: 18px;
+    font-family: $base-font;
+    line-height: 1.4;
+    color:$base-font-color-dark;
+    background: $dark;
+    margin: 0;
+    padding: 10px;}
+
+.e-allergy-bg {@extend .e-textbox;
+					background-color:$bmq !important;
+					border-color:$bmq !important;}
+
+.e-family-bg {@extend .e-textbox;
+					background-color:$skin !important;
+					border-color:$skin !important;}
+
+.e-medication-bg {@extend .e-textbox;
+					background-color:$meds !important;
+					border-color:$meds !important;}
+
+.e-surgical-bg {@extend .e-textbox;
+					background-color:$teleCath !important;
+					border-color:$teleCath !important;}
+
+.e-medical-bg {@extend .e-textbox;
+					background-color:$healthRecord !important;
+					border-color:$healthRecord !important;}
+
+.e-social-bg {@extend .e-textbox;
+					background-color:$mood !important;
+					border-color:$mood !important;}
+
+.e-function-bg {@extend .e-textbox;
+					background-color:$education !important;
+					border-color:$education !important;}
+
+.e-surgical-input {background: $base-background-dark;
+						color: $base-font-color-dark;
+						border-bottom: $teleCath 1px solid;
+						font-family: $base-font;
+						font-size: 16px;
+						}
+
+.e-medication-input {background: $base-background-dark;
+						color: $base-font-color-dark;
+						border-bottom: $meds 1px solid;
+						font-family: $base-font;
+						font-size: 16px;
+						}
+
+}
+
+
+
+
+		
+
+	
+
+
+

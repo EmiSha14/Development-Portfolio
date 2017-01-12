@@ -1,0 +1,42 @@
+
+		
+
+.e-page {
+	
+	background-color: $base-background-dark;
+	font-size: $base-font-size-home;
+	
+	
+
+	.e-contact-list-item
+		 {width:100%;
+		margin:1% 0;
+		height:10%;
+		border: none;
+		color: $base-font-color-dark;
+		background-color: $dark;
+
+		i{color: $contact;}
+
+			}
+
+	.e-contact
+
+	{color:$contact;
+	}
+
+	.e-contact-border {border-bottom: 3px $contact solid;}			
+
+	.e-contact-button{background-color: $contact;
+					color:$dark;
+					font-family: $base-font;
+					font-size: $base-font-size-home;
+					border:none;}
+
+}
+		
+
+	
+
+
+

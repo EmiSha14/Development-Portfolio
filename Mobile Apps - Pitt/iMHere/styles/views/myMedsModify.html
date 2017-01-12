@@ -1,0 +1,79 @@
+<ion-pane class="e-page">
+
+<!-- NAVIGATION BAR -->
+<ion-nav-view>
+	<ion-view class="e-page">
+		<ion-nav-bar class="bar bar-header bar-dark e-myMeds-border">
+			
+		</ion-nav-bar>
+
+		<ion-nav-buttons side="left">
+			<ion-nav-back-button class="button-clear e-meds">
+    			<i class="ion-arrow-left-c"></i> Back
+  			</ion-nav-back-button>
+		  <button class="button button-clear">
+		  	<i class="icon ion-home"></i>
+		  </button> 
+
+		  <h1 class="title">myMeds</h1> 
+		</ion-nav-buttons>
+
+		<ion-nav-buttons side="right">
+			<button class="button button-clear">
+				<i class="icon ion-ios7-telephone e-meds"></i>
+			</button>
+
+		   <button class="button button-clear">
+		   	<i class="icon ion-plus e-meds"></i>
+		   </button>
+		</ion-nav-buttons>
+
+
+<!-- END NAVIGATION BAR -->
+
+<!-- BEGIN CONTENT -->
+
+  <ion-content class="padding">
+
+  
+ 
+		<h1 class="e-meds">Modify Medication</h1>
+
+			
+				<h2>Alias:</h2>
+			    <input type="textarea" placeholder="Pain Reliever" class="e-textbox e-meds padding"></input>
+			 
+
+
+			  <h2>Notes:</h2>
+			    <textarea placeholder="max 255 characters" class="e-textbox e-meds padding" maxlength="255"></textarea>	
+			    
+
+		<h2>Are you taking this medication?</h2>
+
+		<div class="button-bar">
+  			<a class="button e-orange-bg">Yes</a>
+  			<!-- USE e-orange-bg for YES or NO user input, 
+  				use .e-textbook for other option not selected-->
+  			<a class="button e-textbox e-meds">No</a>
+		</div>
+
+		<h2>Schedule:</h2>
+
+			<div class="row e-schedule-block e-meds">
+  				<div class="col e-left"><h4 class="e-no-margin">Dosage:</h4><h1 class="e-meds e-no-margin">500mg</h1></div>
+  				<div class="col e-center"><h4 class="e-no-margin">Time:</h4> <h1 class="e-meds e-no-margin">11:15am</h1></div>
+  				<div class="col e-right"><h4 class="e-no-margin">Frequency:</h4> <h1 class="e-meds e-no-margin">Daily</h1></div>
+			</div>
+
+
+		<div class="button button-full e-orange-bg">Submit Changes</div>
+
+  </ion-content>
+<!-- END CONTENT -->
+
+
+	</ion-view>
+</ion-nav-view>
+</ion-pane>
+

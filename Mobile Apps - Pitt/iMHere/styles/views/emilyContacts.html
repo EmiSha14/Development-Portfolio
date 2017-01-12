@@ -1,0 +1,59 @@
+<ion-pane class="e-page">
+
+<!-- NAVIGATION BAR -->
+<ion-nav-view>
+	<ion-view class="e-page">
+		<ion-nav-bar class="bar bar-header bar-dark e-contact-border">
+			
+		</ion-nav-bar>
+
+		<ion-nav-buttons side="left">
+			<ion-nav-back-button class="button-clear e-contact">
+    			<i class="ion-arrow-left-c"></i> Back
+  			</ion-nav-back-button>
+		  
+
+		  <h1 class="title">Contacts</h1> 
+		</ion-nav-buttons>
+
+		<ion-nav-buttons side="right">
+			<button class="button button-clear">
+				<i class="icon ion-plus e-contact"></i>
+			</button>
+		</ion-nav-buttons>
+
+
+<!-- END NAVIGATION BAR -->
+
+<!-- BEGIN CONTENT -->
+
+<ion-content>
+    <div class="list">
+
+       <a ui-sref="main.contacts.detail({id: contact.id})" class="item item-icon-right e-contact-list-item" ng-repeat="contact in vm.contacts">
+        {{contact.title}} {{contact.lastName}} {{contact.firstName}}
+        <i class="icon ion-ios-arrow-forward"></i>
+      </a>
+    
+
+      <a class="item item-icon-right e-contact-list-item" href="#">
+    <i class="icon ion-chevron-right"></i>
+    Clinician
+  </a>
+
+  <a class="item item-icon-right e-contact-list-item" href="#">
+    <i class="icon ion-chevron-right"></i>
+    Clinician
+  </a>
+   
+    </div>
+
+
+ </ion-content>
+<!-- END CONTENT -->
+
+
+	</ion-view>
+</ion-nav-view>
+</ion-pane>
+

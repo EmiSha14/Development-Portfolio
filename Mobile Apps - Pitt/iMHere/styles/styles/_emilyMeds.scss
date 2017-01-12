@@ -1,0 +1,69 @@
+@import "base";
+
+.e-page {
+	background-color: $base-background-dark;
+	font-size: $base-font-size-home;
+
+	
+
+	.e-myMeds-border {
+			border-bottom: 3px $meds solid;
+	}
+
+	.e-textbox {background-color: $dark;
+				font-family: $base-font;
+				font-size: 18px;
+				color:#ffffff;
+				border: 1px solid;}
+
+	.e-orange-bg {@extend .e-textbox;
+					background-color:$meds;
+					text-align: center;
+					border-color:$meds;}
+
+	
+	.e-meds {color:$meds;
+			border-color:$meds;
+
+			h1 {color:$meds;
+				font-family:$base-font;
+				font-size: 20px;
+				margin: 0;
+				}
+			}
+
+	.e-result {height: 45px;
+				width:100%;
+				background-color: $meds;
+				color:#ffffff;
+				margin-top: 5px;
+				border: 1px $meds solid;
+				font-family: $base-font;
+				font-size: 20px;
+				text-align: left;
+				}
+
+	.e-result-info {background-color: $dark;
+					width:100%;
+
+
+					h1 {font-size: 18px;}
+
+					p {font-size: 18px;
+						padding-bottom: 5px;}
+
+					}
+
+
+
+}
+
+
+
+
+		
+
+	
+
+
+

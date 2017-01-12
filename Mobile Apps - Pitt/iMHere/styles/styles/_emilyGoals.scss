@@ -1,0 +1,72 @@
+@import "base";
+
+.e-page {
+	background-color: $base-background-dark;
+	font-size: $base-font-size-home;
+	
+
+	.e-goal-border {
+			border-bottom: 3px $goals solid;
+	}
+
+	.e-goal-textbox {background-color: $dark;
+				font-family: $base-font;
+				font-size: 18px;
+				color:#ffffff;
+				border: $goals 1px solid;
+				margin-top:10px;
+
+				li{list-style-type: none;
+					padding:5px;}
+
+				.dark {background-color: #333333;
+						color:#ffffff;}
+				}
+
+	.e-purple-bg {@extend .e-textbox;
+					background-color:$goals;
+					text-align: center;
+					border-color:$goals;}
+
+	
+	.e-goal {color:$goals;
+			border-color:$goals;
+
+			h1 {color:$goals;
+				font-family:$base-font;
+				font-size: 20px;
+				margin: 10px 0 0 0;
+				}
+			}
+
+	.e-goal-header {
+					background-image: url("../images/goal.svg");
+					background-repeat: no-repeat;
+					background-size: 10%;
+
+				h1{ 
+						color:#fff;
+						font-size: 20px;
+						margin:0;
+						margin-left: 14%;
+						padding:0px 0 15px 0;
+					}
+
+				}
+
+
+
+
+
+
+}
+
+
+
+
+		
+
+	
+
+
+

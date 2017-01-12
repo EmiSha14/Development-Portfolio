@@ -1,0 +1,51 @@
+@import "base";
+
+.e-page {
+	background-color: $base-background-dark;
+	font-size: $base-font-size-home;
+
+	
+
+	.e-bmqs-border {
+			border-bottom: 3px $bmq solid;
+	}
+
+	.e-textbox {background-color: $dark;
+				font-family: $base-font;
+				font-size: 18px;
+				color:#ffffff;
+				border: 1px solid;}
+
+	
+
+	.e-bmq-bg {@extend .e-textbox;
+					background-color:$bmq !important;
+					text-align: center;
+					border-color:$bmq !important;}
+
+	
+	.e-bmq {color:$bmq;
+			border-color:$bmq;
+			background-image:none;
+
+			h1 {color:$bmq;
+				font-family:$base-font;
+				font-size: 20px;
+				margin: 0;
+				}
+			}
+
+	
+
+
+}
+
+
+
+
+		
+
+	
+
+
+
