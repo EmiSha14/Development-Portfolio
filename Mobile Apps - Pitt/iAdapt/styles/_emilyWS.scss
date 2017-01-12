@@ -1,0 +1,154 @@
+$lightBlue:			#19DDD3;
+	/* USE for headers, border colors, and back up color for gradients*/
+$darkBlue:			#00BCD4;
+	/* Use for dark side of gradient and h1 */
+
+$fontColor: 		#ffffff;
+
+
+
+$font: 				'latoregular';
+$fontBold: 			'latobold';
+$fontThin:			'latolight';
+
+$gradientWebkit: 	-webkit-linear-gradient(left, $darkBlue , $lightBlue);
+$gradient: 			linear-gradient(to right, $darkBlue , $lightBlue);
+
+$purpleGradientWebkit: 	-webkit-linear-gradient(left, #772262 , #68378B);
+$purpleGradient: 			linear-gradient(to right, #772262 , #68378B);
+
+
+
+.e-page{
+
+.bar-gradient {background: $gradientWebkit;
+				background: $gradient;
+				
+
+				a {color:$fontColor;}
+
+				
+}
+
+h1.title {color:$fontColor;
+			font-family: $fontBold;
+			font-size:18px;}
+
+.card-title {
+				color:$fontColor;
+				font-family: $fontBold;
+				font-size: 24px;
+				padding: 10px 5px 10px 55px;
+				margin:20px 0 0 0;
+
+		&.goal {background-color: $darkBlue;
+                background-image: url(../images/goal.svg); 
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position-x: 10px; 
+                }
+
+        &.plan {background-color: $darkBlue;
+                background-image: url(../images/plan.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position-x: 10px;
+                }
+
+        &.do {background-color: $darkBlue;
+                background-image: url(../images/do.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position-x: 10px;
+                }
+
+        &.check {background-color: $darkBlue;
+                background-image: url(../images/check.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position-x: 10px;
+                }
+
+			}
+
+
+
+
+.ws-text {
+			padding:10px 0 0 0;
+			color:$fontColor;
+			font-size: 18px;
+			font-family: $font;
+			line-height: 1.6;
+
+			.row {padding:0;}
+
+			.col {text-align: center;
+					font-family: $fontBold;
+					padding: 0;
+
+					&.padding {padding: 10px;}
+				}
+
+			.button-medium {background: $gradientWebkit;
+							background: $gradient;
+						width:40%;
+						margin: 10px 30% 0 30%;
+						font-family: $fontBold;
+						font-size: 18px;
+						color: $fontColor;
+						border:none;
+					}
+
+			
+			ul {padding: 10px 10px 10px 45px;
+				background-color: #666;
+
+			li {list-style-type: square;
+					color: $lightBlue;
+					
+					span {color:$fontColor;}
+
+					}
+
+
+				}
+
+			ol {padding: 10px 10px 10px 45px;
+				list-style-type: decimal;
+				background-color: #666;
+
+				li {font-family: $fontBold;
+					color: $lightBlue;
+					
+					span {color:$fontColor;
+							font-family: $font;}
+
+					}
+
+
+			}
+
+	p {background-color: #666666;
+		padding:10px;
+		}
+
+	textarea {background-color: #666666;
+				border: darken($lightBlue,20%) 2px solid;
+				font-family: $font;
+				font-size: 18px;
+				color:$fontColor;
+				padding:5px;
+				line-height: 1.6;}
+
+
+
+
+}
+
+}
+
+
+
+
+

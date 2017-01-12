@@ -1,0 +1,33 @@
+<ion-modal-view class="mod-messaging">
+    <ion-header-bar class="bar-dark">
+        <h1 class="title" style="font-family: 'titilliumsemibold_upright'">Compose Message</h1>
+        <a class="button icon-left ion-ios-close-outline button-clear" ng-click="close()"></a>
+    </ion-header-bar>
+
+    <ion-content has-bouncing="true" scroll="true" style="z-index: 0" class="has-header padding message-form" padding="true">
+
+        <div class="form-group">
+            <div class="label green">Subject</div>
+            <input type="text" placeholder="Subject"></div>
+        </div>
+        <div class="form-group">
+            <div class="label green">Message</div>
+            <textarea rows="10"></textarea>
+        </div>        
+        <div class="button-bar" style="margin-top: 3px;">
+            <a class="button e-button icon-left ion-paper-airplane e-dark" style="font-size: 20px" ng-click="close()">Send</a> 
+        </div>
+        
+    </ion-content>
+
+    <!--<ion-footer-bar>
+        <div class="buttons" ng-click="prevPage()" ng-hide="currentIndex==0">
+            <button class="button">Previous</button>
+        </div>
+        <h1 class="title pager" style="text-align: center">{{currentIndex+1}} of {{pageTotal}}</h1>
+        <div class="buttons">
+            <button class="button" ng-if="currentIndex+1 != pageTotal" ng-click="nextPage()">Next</button>
+        </div>
+    </ion-footer-bar>-->
+
+</ion-modal-view>

@@ -1,0 +1,46 @@
+$lightBlue:			#19DDD3;
+	/* USE for headers, border colors, and back up color for gradients*/
+$darkBlue:			#00BCD4;
+	/* Use for dark side of gradient and h1 */
+
+$fontColor: 		#ffffff;
+
+$font: 				'latoregular';
+$fontBold: 			'latobold';
+$fontThin:			'latolight';
+
+$gradientWebkit: 	-webkit-linear-gradient(left, $darkBlue , $lightBlue);
+$gradient: 			linear-gradient(to right, $darkBlue , $lightBlue);
+
+
+
+.e-page{
+
+.homeContent {margin:0;}
+
+.home-buttons 
+	{width:80%;
+	margin: 10%;
+
+	label {border: 1px solid $lightBlue;
+			background-color: #333333;
+			}
+
+	input {color:#fff;
+			font-family: $font;
+			font-size: 16px;}
+
+
+
+	span {color: $fontColor;
+			font-family: $fontThin;
+			text-align: center;}
+}
+
+
+}
+
+
+
+
+

@@ -1,0 +1,289 @@
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+
+
+
+$dark:                            #444 !default;
+
+
+$assertive:                       #ef4e3a !default;
+$energized:                       #f0b840 !default;
+$balanced:                        #66cc33 !default;
+$calm:                            #43cee6 !default;
+$positive:   					  #5a9bd5 !default;
+$royal:                           #8a6de9 !default;
+
+
+
+$darkblue: 					   	#28282f;
+$teal: 								#007a86;
+$yellow:							#ffe131;
+
+.e-page {
+	background-color: $darkblue;
+	font-family:"HelveticaNeue-CondensedBold";
+
+
+	p { font-family: "HelveticaNeue";
+		font-size: 1em;
+		text-align: center;
+		color:white;
+
+	}	
+
+	.circular {
+	width: 120px;
+	height:120px;
+	border-radius: 60px;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	background-repeat: no-repeat;
+	border-color:$teal;
+	border-width:3px;
+	border-style: solid;
+	margin:8% auto 2% auto;
+	}
+
+	h1 {font-size: 1.4em;
+		color: white;
+		text-align: center;
+		font-family: "HelveticaNeue-CondensedBold";
+		margin-bottom:5%;
+		}
+
+	.tab {	border-bottom: 20px solid $teal;
+			border-left: 25px solid transparent;
+			border-right: 25px solid transparent;
+			height: 20px;
+			width: 150px;
+			color:white;}
+
+	.tab-bottom {background:$teal;
+				height:2px;
+				width:100%;
+				margin:0;}
+
+	#banner {
+  		text-align: center;
+  		font-size: 16pt;
+  		color: white;
+ 		background-color: $teal;
+  		padding:5%;
+  	}
+
+  	.button-text
+		{	font-family: "HelveticaNeue-CondensedBold";
+			font-size: 1.1em;
+			text-align: center;
+			text-shadow:   0px 0px 20px rgba(96, 96, 96, 1);
+			filter:none;
+			-webkit-filter:none;
+			color:$light;
+		}
+
+  	.red 
+  		{color:$assertive;}
+
+  	.teal {color:$teal;}
+  		
+  	.warmup-active
+  		{
+  		background: linear-gradient(
+      rgba(249, 78, 91, .6), 
+      rgba(249, 78, 91, .6)
+    ),url(../images/warmupBlur.jpg) no-repeat center center;
+		background-size: cover;
+		border: none;
+		font-size: 1.5em;
+		color:white;
+		}
+
+	.warmup-color {color:$assertive;}
+
+	.exercise-one
+  		{
+  		background: linear-gradient(
+      rgba(255, 255, 255, .5), 
+      rgba(255, 255, 255, .5)
+    ),url(../images/walking.jpg) no-repeat center center;
+		background-size: cover;
+		border: none;
+		font-size: 1.5em;}
+
+	.exercise-one-active
+  		{background: linear-gradient(
+      rgba(255, 145, 46, .7), 
+      rgba(255, 145, 46, .7)
+    ),url(../images/walking.jpg) no-repeat center center;
+		background-size: cover;
+		border: none;
+		font-size: 1.5em;}
+
+	.exercise-one-color {color:$energized;}
+
+	.exercise-two
+  		{
+  		background: linear-gradient(
+      rgba(255, 255, 255, .5), 
+      rgba(255, 255, 255, .5)
+    ),url(../images/theraband.jpg) no-repeat center center;
+		background-size: cover;
+		border: none;
+		font-size: 1.5em;}
+
+	.exercise-two-active
+  		{
+  		background: linear-gradient(
+      rgba(102, 204, 51, .8), 
+      rgba(102, 204, 51, .8)
+    ),url(../images/theraband.jpg) no-repeat center center;
+		background-size: cover;
+
+  		/*
+  		background: url(../images/theraband.jpg) no-repeat center center;
+  		background-color: #8cb204;
+  		background-blend-mode: multiply;
+		background-size: cover;
+		*/
+		border: none;
+		font-size: 1.5em;}
+
+	.exercise-one-color {color:$balanced;}
+
+	.exercise-three
+  		{
+  		background: linear-gradient(
+      rgba(255, 255, 255, .5), 
+      rgba(255, 255, 255, .5)
+    ),url(../images/balance1.jpg) no-repeat center center;
+		background-size: cover;
+		border: none;
+		font-size: 1.5em;}
+
+	.exercise-three-active
+  		{
+  		background: linear-gradient(
+		rgba(91, 216, 210, .8), 
+      rgba(91, 216, 210, .8)
+    ),url(../images/balance1.jpg) no-repeat center center;
+		background-size: cover;
+
+  		/*
+  		background: url(../images/balance.jpg) no-repeat center center;
+  		background-color: #5bd8d2;
+  		background-blend-mode: multiply;
+		background-size: cover;
+		*/
+		border: none;
+		font-size: 1.5em;}
+
+	.exercise-three-color {color:$calm;}
+
+	.exercise-four
+  		{
+  		background: linear-gradient(
+      rgba(255, 255, 255, .5), 
+      rgba(255, 255, 255, .5)
+    ), url(../images/partner.jpg) no-repeat center center;
+		background-size: cover;
+		border: none;
+		font-size: 1.5em;}
+
+	.exercise-four-active
+  		{
+  		background: linear-gradient(
+      rgba(90, 155, 213, .8), 
+      rgba(90, 155, 213, .8)
+    ),url(../images/partner.jpg) no-repeat center center;
+		background-size: cover;
+
+		/*
+  		background: url(../images/partner.jpg) no-repeat center center;
+  		background-color: $positive;
+  		background-blend-mode: multiply;
+		background-size: cover;
+		*/
+		border: none;
+		font-size: 1.5em;}
+
+	.exercise-four-color {color:$positive;}
+
+	.cooldown
+  		{
+
+  		background: linear-gradient(
+      rgba(255, 255, 255, .5), 
+      rgba(255, 255, 255, .5)
+    ), url(../images/cooldown.jpg) no-repeat center center;
+		background-size: cover;
+		border: none;
+		font-size: 1.5em;}
+
+	.cooldown-active
+  		{
+  		background: linear-gradient(
+      rgba(138, 109, 233, .8), 
+      rgba(138, 109, 233, .8)
+    ),url(../images/cooldown.jpg) no-repeat center center;
+		background-size: cover;
+
+  		/*
+  		background: url(../images/cooldown.jpg) no-repeat center center;
+  		background-color: $royal;
+  		background-blend-mode: multiply;
+		background-size: cover;
+		*/
+		border: none;
+		font-size: 1.5em;}
+
+	.cooldown-color {color:$royal;}
+
+
+  	.start {background-color: darken($balanced, 10%);
+  			}
+
+  /* ----------- Exercise Pages ----------- */
+
+  	.ex-title {
+  		font-family: "HelveticaNeue-CondensedBold";
+  		font-size:2em;
+  		text-align: center;
+  		margin-bottom: 12%;
+  	}
+
+  	.directions {color: white;
+  				width:80%;
+  				margin: auto;
+  				padding: 4% 0 2% 0;
+  				border-radius: 5px;
+  				background-color: $light;}
+
+	.timer {font-family: "HelveticaNeue-CondensedBold";
+  			font-size:6em;
+  			text-align: center;
+  			margin-top:20%;
+  			margin-bottom:15%;}
+
+  	.play {font-size: 5em;
+  			text-align: center;
+  			margin-bottom: 5%;}
+
+  	.video {
+  			margin: 5% 0 5% 0;
+  			}
+
+  	p {color:$dark;}
+
+  	
+
+  	.headline {color:$light;
+  			background-color:$teal;
+  			font-family:"HelveticaNeue-CondensedBold";}
+  	
+
+
+  	
+}
+
+
+

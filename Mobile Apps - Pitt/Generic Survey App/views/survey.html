@@ -1,0 +1,144 @@
+<ion-pane class="e-page-dark">
+
+
+<div class="bar bar-header header-color">
+      <a class="button icon-left ion-chevron-left button-clear"></a>
+    <h1 class="title">Survey App</h1>
+    <a class="button icon-right ion-close button-clear"></a>
+</div>
+
+<ion-content padding="false">   
+
+  <div class="content">
+
+
+
+
+<!-- RADIO BUTTONS -->
+
+
+    
+    <div class="blueBox padding">1. What color are roses?</div>
+
+    <ion-list>
+	  <ion-radio class="option" ng-model="choice" ng-value="'A'">Red</ion-radio>
+
+	  <ion-radio class="option" ng-model="choice" ng-value="'B'">Yellow</ion-radio>
+
+	  <ion-radio class="option" ng-model="choice" ng-value="'C'">Pink</ion-radio>
+
+	  <ion-radio class="option" ng-model="choice" ng-value="'D'">All of the Above</ion-radio>
+	</ion-list>
+
+
+
+
+<!-- SHORT ANSWER -->
+
+	<div class="blueBox padding">2. Briefly, how do you feel about roses?</div>
+
+	<div class="list">
+		  <label class="item item-input option">
+		    <input class="option" type="text" placeholder="Type answer here...">
+		  </label>
+  	</div>
+
+
+
+
+
+<!-- LONG ANSWER / TEXT AREA -->
+
+	<div class="blueBox padding">3. Can you explain why?</div>
+ 		<div class="list">
+		  <label class="item item-input option">
+		    <textarea class="option" type="textarea" rows="6"placeholder="Type answer here..."></textarea>
+		  </label>
+  	</div>
+
+
+
+
+
+
+<!-- CHECK LIST -->
+
+	<div class="blueBox padding">4. What color(s) of roses are your favorite?</div>  
+
+	<ion-list>
+
+  <ion-checkbox class="option checkbox-stable"ng-model="filter.red">Red</ion-checkbox>
+  <ion-checkbox class="option checkbox-stable" ng-model="filter.yellow">Yellow</ion-checkbox>
+  <ion-checkbox class="option checkbox-stable" ng-model="filter.pink">Pink</ion-checkbox>
+  <ion-checkbox class="option checkbox-stable" ng-model="filter.purple">Purple</ion-checkbox>
+  <ion-checkbox class="option checkbox-stable" ng-model="filter.other">Other</ion-checkbox>
+
+</ion-list>
+
+<!-- YES/NO RADIO -->
+
+	<div class="blueBox padding">5. Do you like roses?</div>  
+
+	<ion-list>
+
+  
+	  <ion-radio class="option" ng-model="choice" ng-value="'Y'">Yes</ion-radio>
+
+	  <ion-radio class="option" ng-model="choice" ng-value="'N'">No</ion-radio>
+
+	</ion-list>
+
+<!-- LIKERT SCALE RADIO -->
+
+	<div class="blueBox padding">6. Roses are my favorite</div>
+
+  <ion-list>
+	  <ion-radio class="option" ng-model="choice" ng-value="'A'">Strongly Agree</ion-radio>
+
+	  <ion-radio class="option" ng-model="choice" ng-value="'B'">Agree</ion-radio>
+
+	  <ion-radio class="option" ng-model="choice" ng-value="'C'">Neutral</ion-radio>
+
+	  <ion-radio class="option" ng-model="choice" ng-value="'D'">Disagree</ion-radio>
+
+	  <ion-radio class="option" ng-model="choice" ng-value="'E'">Strongly Disagree</ion-radio>
+	</ion-list>
+
+
+<!-- DATE/TIME  -->
+
+	<div class="blueBox padding">7. When did you last receive roses?</div>  
+
+	<ion-list> 
+		<input type="date" class="input-option"></input>
+</ion-list>
+
+<ion-list> 
+		<input type="time" class="input-option"></input>
+</ion-list>
+
+
+<!-- NUMBER  -->
+
+	<div class="blueBox padding">8. How many did you recieve?</div>  
+
+	<ion-list> 
+		<input type="number" class="input-option" placeholder="Enter number..."></input>
+</ion-list>
+
+
+
+    
+
+  </div>
+
+</ion-content>
+
+<!-- SURVEY NAVIGATION  -->
+
+<div class="bar bar-footer">
+  <button class="button button-back">Back</button>
+  
+  <button class="button button-next">Next</button>
+</div>
+</ion-pane>

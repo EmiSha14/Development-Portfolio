@@ -1,0 +1,138 @@
+@import 'compass/css3';
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #4a87ee !default;
+$calm:                            #43cee6 !default;
+$balanced:                        #66cc33 !default;
+$energized:                       #f0b840 !default;
+$assertive:                       #ef4e3a !default;
+$royal:                           #8a6de9 !default;
+$dark:                            #444 !default;
+*/
+$positive:    #5a9bd5 !default;
+$base-background-color: #333333 !default;
+
+
+/* COLORS */
+$white: #ffffff;
+$black: #000000;
+$red: #F95A5A;
+$orange: #f1762C;
+$green: #8CC640;
+$yellow: #FBAE17;
+$pink: #DB407F;
+$purple: #D80BD8;
+$teal: #00A99D;
+$blue: #1495C9;
+
+
+/*Base      */
+
+$background: #808080;
+$font: 'titilliumsemibold_upright';
+$font-color:#FFFFFF;
+
+
+
+
+
+.e-page{
+	
+
+h1 {font-family: $font;
+	color:$font-color;
+	font-size: 20px;
+}
+
+h2 {font-family: $font;
+	color:$font-color;
+	font-size: 18px;
+}
+
+
+h3 {font-family: $font;
+	color:$font-color;
+	font-size: 16px;
+}
+
+h4 {font-family: $font;
+	color:$font-color;
+	font-size: 14px;
+}
+
+h5 {font-family: $font;
+	color:$font-color;
+	font-size: 12px;
+}
+
+h6 {font-family: $font;
+	color:$font-color;
+	font-size: 10px;
+}
+
+
+
+p {font-family: $font;
+		color:#ffffff;
+		font-size: 16px;
+		margin:0;}
+
+.e-text-left {text-align: left;}
+
+.e-text-center {text-align: center;}
+
+.title {font-family: $font;}
+
+.e-dark {background-color: #4d4d4d;
+			color:#ffffff;}
+
+.e-no-margin {margin:0;}
+
+.e-no-padding {padding:0 !important;}
+
+.e-list {padding:10px;
+			border-bottom: 1px solid;
+			width:100%;
+			font-family: $font;
+			color:#ffffff;
+			
+			p {font-size: 14px;
+				margin: 0;}
+
+			}
+
+.e-textbox {background-color: $base-background-color;
+				font-family: $font;
+				font-size: 18px;
+				color:#ffffff;
+				border: 1px solid;}
+
+.e-schedule-block {font-family:$font;
+						border: 1px solid;
+						color:#fff;
+						padding:0;
+						margin-bottom: 10px;
+					}
+
+
+.e-left {border-right:0;
+			}
+
+.e-center   {border-left: 0;
+			border-right: 0;
+				}
+
+.e-right 	{
+				border-left: 0;}
+
+
+}
+
+
+

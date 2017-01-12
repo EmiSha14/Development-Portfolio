@@ -1,0 +1,24 @@
+/* MESSAGE FORM */
+
+
+.message-form {
+	
+	background-color: #444444;
+	color: $white;
+	font-family:$font;
+
+	.label {font-size: 20px;
+			padding:10px 0px ;
+			color:lighten( $teal, 10% );}
+
+	input, textarea {font-family:$font;
+			padding: 5px;
+			font-size:18px;
+			background-color:$background;
+			color: $white;
+			}
+	
+	.e-button {background-color: lighten( $teal, 10% );
+				border:none;
+				color:$white;}
+}

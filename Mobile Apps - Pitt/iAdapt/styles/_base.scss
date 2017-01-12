@@ -1,0 +1,99 @@
+@import 'compass/css3';
+
+
+$lightBlue:			#19DDD3;
+	
+$darkBlue:			#00BCD4;
+	
+
+$fontColor: 		#ffffff;
+
+$font: 				'latoregular';
+$fontBold: 			'latobold';
+$fontThin:			'latolight';
+
+$berry: 			#772262;
+$purple:  			#69378B;
+
+$gradientWebkit: 	-webkit-linear-gradient(left, $darkBlue , $lightBlue);
+$gradient: 			linear-gradient(to right, $darkBlue , $lightBlue);
+
+$purpleGradientWebkit: 	-webkit-linear-gradient(left, #772262 , #68378B);
+$purpleGradient: 			linear-gradient(to right, #772262 , #68378B);
+
+
+.e-page{ background: #333333;
+		font-family: 'latoregular';
+
+	.content {padding:10% 0;}
+
+	.logo img { width:70%;
+				margin:10% 15%;
+			}
+
+	h1 {color:$darkBlue;
+			text-align: center;
+			font-family: $fontBold;
+			margin-top: 10px;}
+
+	h2 {color:$lightBlue;
+		font-family: $font;
+		}
+
+	h3 {color: $lightBlue;
+		font-family: $fontBold;
+		font-size: 20px;
+		margin-top: 10px;}
+
+	h4 {color:$fontColor;
+		text-align:center;
+	font-family: $font;}
+
+	button { background: $gradientWebkit;
+			background: $gradient;
+		
+			  font-family: $fontBold;
+			  font-size: 20px;
+			  color:$fontColor;
+			  border:none;
+			  
+
+			  &.unselected {
+							background: #666666;
+							color:#fff;}
+			} 
+
+	.star {background: url(..images/starOutline.svg);
+			background-size: contain;
+			background-repeat: no-repeat;
+			display:inline;
+			}
+
+	.star-selected {background: url(..images/starFill.svg);
+			background-size: contain;
+			background-repeat: no-repeat;
+			display:inline;}
+
+	.ion-help-circled {font-size:24px;
+						color:$darkBlue;} 
+
+
+
+	.goal-list {margin-top:20px;
+			}
+
+	.item{background-color: #666666;
+				border:none;
+				border-bottom: $lightBlue 2px solid;
+				margin-bottom: 5px;
+				font-size: 18px;
+				color:$fontColor;}
+
+	hr {height: 1px;
+		border:0;
+		
+		background: -webkit-linear-gradient(left, #333, $darkBlue , $lightBlue, $darkBlue, #333);
+		background: linear-gradient(to right, #333, $darkBlue , $lightBlue, $darkBlue, #333);}
+					}
+
+

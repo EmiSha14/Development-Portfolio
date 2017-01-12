@@ -1,0 +1,111 @@
+@import 'compass/css3';
+
+
+$bg-color:			#0E2833;
+$button-bg-color:   #2F687F;	
+$header:			#1C5269;
+$footer:			#849499;	
+$fontColor: 		#F2F2F2;
+$option: 			#1C4A56;
+$optionChecked: 	#328F9E;
+$selected: 			#328F9E;
+$bottom:			#849499;
+$back:				#0E2833;
+
+$font: 				'oxygen-regular';
+$fontBold: 			'oxygen-bold';
+$fontThin:			'oxygen-light';
+
+
+
+
+
+.e-page-dark{ background: $bg-color;
+font-family: $font;
+		
+
+	.content {padding:12% 0 15% 0;
+			}
+
+	.header-color {background: $header;
+					font-family: $font;
+					color: $fontColor;
+					}
+
+	.title {color: $fontColor;
+		font-family: $fontBold;
+		font-size: 18px;
+		text-align:center;}
+
+	.blueBox { 
+			  background: $button-bg-color;
+			  font-family: $font;
+			  font-size: 22px;
+			  line-height:1.3;
+			  text-align: left;
+			  padding:20px 10px;
+			  margin:10px 0 10px 0;
+			  width:100%;
+			  color:$fontColor;
+			  border:none;
+			
+			} 
+
+
+
+	.option {background-color: $option !important; 
+			color:$fontColor;
+			font-family: $font;
+			font-size: 18px;
+			border:none;
+			}
+
+			.checkbox input:checked:before, .checkbox input:checked + .checkbox-icon:before {
+  background: $optionChecked !important; 
+  border-color: $optionChecked !important;
+}
+
+	.item-complex .item-content, .item-radio .item-content {background:$option;}
+
+	.item-radio input:checked ~ .item-content {background-color: $optionChecked;}
+
+
+
+	textarea {line-height: 1.4;}
+
+	.input-option {background-color: $option; 
+			color:$fontColor;
+			font-family: $font;
+			font-size: 18px;
+			border:none;
+			padding:20px 10px !important;}
+
+	.button-clear {color:$fontColor;}
+
+	.bar-footer {background: $footer;}
+
+	.button-back {background-color: $footer;
+					color:$fontColor;
+					font-size: 20px;
+					border: none;
+					font-family: $font;}
+
+	.button-next {background-color: $footer;
+					color:$bg-color;
+					font-size: 20px;
+					border: none;
+					font-family: $font;}
+	
+	.side-menu {background-color: $button-bg-color !important; 
+			color:$fontColor;
+			font-family: $font;
+			font-size: 18px;
+			border:none;
+			text-align: left;
+			margin:5px 0;
+			}
+
+	.side-menu a {text-align: left;}
+					}
+
+

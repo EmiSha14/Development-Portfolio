@@ -1,0 +1,21 @@
+$default-text-shadow-color: rgba(gray, 0.6);
+$default-text-shadow-blur: 3px;
+$default-text-shadow-v-offset: 1px;
+$font-size: 16pt;
+$bannerbg: #5A9BD5;
+$white: #ffffff;
+
+#router {background-color:#ffffff;}
+
+#banner {
+  text-align: center;
+  font-size: 16pt;
+  font-weight: 500;
+  color: $white;
+  background-color: #5A9BD5;
+  padding:5%;
+  
+}
+
+.item item-avatar {border-radius:none;}
+

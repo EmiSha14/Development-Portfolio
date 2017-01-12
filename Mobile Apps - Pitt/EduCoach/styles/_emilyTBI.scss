@@ -1,0 +1,256 @@
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$dark:                            #444 !default;
+$assertive:                       #ef4e3a !default;
+$energized:                       #f0b840 !default;
+$balanced:                        #66cc33 !default;
+$calm:                            #43cee6 !default;
+$positive:   					            #5a9bd5 !default;
+$royal:                           #8a6de9 !default;
+
+$primary:                          #00BDD7;
+$medPrimary:                       #00BCD4;
+$ltPrimary:                        #B2EBF2;
+$sky:                             #43cee6;
+$imprima:                         'Imprima-Regular';
+
+
+
+.e-page2 {/*background-image:url(../images/gradient.png);
+  background-size: cover;*/
+  background-color: #F2F2F2;
+  background-repeat: repeat;
+  font-size: 1.1em;
+	font-family:$imprima;
+
+  .card , .item  {background-color: #F2F2F2;}
+
+  header {
+
+       #logo {
+        width:70%;
+        margin:12% 15% 12% 15%;
+      background-color: #F2F2F2;}
+    }
+
+  h1 {font-size:2.5em;
+      color:$primary;
+      text-align:center;
+      margin-bottom: 0;
+      font-family:$imprima;
+
+    }
+
+  h3 {
+      text-align: center;
+      color:$sky;
+      font-family: $imprima;}
+
+  h4 {color:$medPrimary;
+                      font-family: $imprima;}
+
+
+
+     
+      
+
+
+	p {
+		
+		color:$dark;}
+
+ .submit { background-color: $primary;}
+
+
+   
+     
+
+/* -------------- LOGIN PAGE ---------------- */	
+
+  .content {width:100%;
+          margin: auto;
+
+    input {color:darken($sky,30%);
+                   font-family: $imprima;
+                   font-size:1.1em; }
+
+    .item-input {
+              margin: 3% auto 0 auto;
+              border: 1px solid $sky; 
+              background-color: $stable;
+              border-radius: 5px;
+              font-family: $imprima;
+              
+              
+              &.plan-input {border:none;
+                border-radius: 0;
+                margin: 0;
+                padding: 0;
+                }
+              }
+
+    .input-label {color:$dark;
+                   }
+
+    .item-text-wrap {border-bottom: none;}
+
+
+      .ion-help-circled {float:right;
+          font-size:2em;
+          color:rgba( $dark, .4 );
+          padding: 0 0 5% 0;}
+
+/* -------------- HOME PAGE ---------------- */  
+
+.button {background-color: $stable;
+                font-family: $imprima;
+                border: 1px solid;
+                border-radius: 5px;
+                font-size: 1.1em;
+                
+
+        &.button-positive {border-radius: 5px;
+                      border: 1px solid $sky; 
+                      color:$dark;
+                      font-family:$imprima;
+                      margin-bottom:3%;
+                      background: $sky;}
+
+
+        &.button-indigo {border-color:$primary;
+                          background-color:$medPrimary;
+                    color:#333333;
+                    
+                  }
+
+        &.button-medindigo {border-color:$sky;
+          background-color:$medPrimary;
+                    color:#333333;
+                  
+                    
+                    }
+
+      }
+
+
+
+/* -------------- STRATEGY PAGE ---------------- */ 
+
+.pagetitle {
+        height:40px;
+        font-size: 1.2em;
+        color:$dark;
+        text-align: center;
+        padding: 10px 0 10px 0;
+        background-color:$energized;
+        position: relative;
+
+        &.worksheet {background-color:darken($sky,10%);
+                      color:$light;}
+
+        }
+
+
+
+.card-title
+    {height:20%;
+      width:90%;
+      margin:20px 5% 0 5%;
+      border-radius: 5px 5px 0 0;
+      font-style: $imprima;
+      font-size: 1.5em;
+      padding: 10px 0 10px 16%;
+     
+      color:$light;
+
+        &.goal {background-color: $primary;
+                background-image: url(../images/goal.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: left 10px;}
+
+        &.plan {background-color: $medPrimary;
+                background-image: url(../images/plan.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: left 10px;}
+
+        &.do {background-color: darken($medPrimary,10%);
+                background-image: url(../images/do.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: left 10px;}
+
+        &.check {background-color: $medPrimary;
+                background-image: url(../images/check.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: left 10px;}
+
+
+     }
+
+.card-content
+    {border: 1px solid;
+      border-radius: 0 0 5px 5px;
+      width:90%;
+      margin:0 5%;
+      background-color: #fff;
+      padding: 10px;
+      margin-bottom:20px;
+
+
+        &.goal-text {border-color:$primary;
+                    h4 {color:$medPrimary;
+                      font-family: $imprima;}
+              }
+
+        &.plan-text {border-color:$medPrimary;
+              }
+
+        &.do-text {border-color:$medPrimary;}
+
+        &.check-text {border-color:$medPrimary;
+              }
+
+    }
+
+
+/* -------------- WORKSHEET PAGE ---------------- */ 
+
+textarea {font-family: $imprima;}
+
+.item-checkbox {border:none;
+              }
+
+.checkbox-balanced {margin-left: 0px;}
+
+
+/* ------------- GOAL LIST PAGE --------------- */
+.goal-list{
+
+.item {margin:10px;
+      background: #FFF;
+    &.even {border-left: 5px solid $primary;}
+    &.odd {border-left: 5px solid darken($sky,10%);}
+
+}
+button {border:none;}
+
+i {padding-right: 10px;}
+
+.col .button {color:$dark;
+              border: none;}
+
+	
+}
+	
+
+  
+	
+  	
+}
+
+
+
+}
